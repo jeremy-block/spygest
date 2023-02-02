@@ -43,16 +43,16 @@ async function startup() {
   logs = [];
   superlatives = [];
   const fetch_d1 = await fetch(
-    "./data/Dataset_1/Documents/Documents_Dataset_1.json"
+    "../data/Dataset_1/Documents/Documents_Dataset_1.json"
   );
   const fetch_d2 = await fetch(
-    "./data/Dataset_2/Documents/Documents_Dataset_2.json"
+    "../data/Dataset_2/Documents/Documents_Dataset_2.json"
   );
   const fetch_d3 = await fetch(
-    "./data/Dataset_3/Documents/Documents_Dataset_3.json"
+    "../data/Dataset_3/Documents/Documents_Dataset_3.json"
   );
   const fetch_e1 = await fetch(
-    "./data/Dataset_1/Documents/Entities_Dataset_1.json"
+    "../data/Dataset_1/Documents/Entities_Dataset_1.json"
   );
 
   Promise.all([fetch_d1, fetch_d2, fetch_d3, fetch_e1])

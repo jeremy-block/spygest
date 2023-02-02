@@ -3,6 +3,7 @@ import math
 import json
 import csv
 import sys
+import os
 
 ##How to access a doc from docs var
 ##docs[set#][#]
@@ -14,10 +15,12 @@ logs = []
 segments = []
 segKeys = []
 
-datasetsPath = "data/Dataset_"
+parentDirectory = os.path.join(os.path.abspath(os.path.join(os.getcwd(), os.pardir)), os.getcwd())
+
+datasetsPath = parentDirectory+"/data/Dataset_"
 segmentsPath = "11"
 
-outputFileName = 'ApplicationManifest.json'
+outputFileName = parentDirectory+'/original_web_interface/ApplicationManifest.json'
 
 mergesegments = int(sys.argv[1])
 
