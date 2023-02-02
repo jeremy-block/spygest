@@ -1,0 +1,7037 @@
+[
+    {
+        "duration": 39,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance91",
+        "time": 141
+    },
+    {
+        "duration": 10,
+        "text": "Ok. reading through the promopt. it says there is a company called GAStech in the country of Kronos. there is a organization of POK that doesn't agree with what they're doing. recently several employees have gone missing",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 741
+    },
+    {
+        "duration": 10,
+        "text": "GAStech",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 1271
+    },
+    {
+        "duration": 0,
+        "text": " (Look thorugh events related to Gastech and POK from the earliest articles) [bottom-up]",
+        "interactionType": "Topic_change",
+        "id": "bottom-up",
+        "time": 1271
+    },
+    {
+        "duration": 10,
+        "text": "most documents have something on them",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 1341
+    },
+    {
+        "duration": 766,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance46",
+        "time": 1629
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance46",
+        "time": 1630
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance46",
+        "time": 1638
+    },
+    {
+        "duration": 10,
+        "text": "Still reading the document",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 1981
+    },
+    {
+        "duration": 10,
+        "text": "In this first oldest document I found. It's talks about the begining of Gastech",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 2021
+    },
+    {
+        "duration": 10,
+        "text": "The change in Centrum has been substantial. You notice them in the constant clutter of helicopters to-ing and fro-ing out to remote areas, and the planes lined up at the city's airport to shuttle execs back and forth from the city. And as you drive round Centrum, almost every roundabout is sponsored by a division of GAStech",
+        "interactionType": "Highlight",
+        "id": "disappearance46",
+        "time": 2289
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance46",
+        "time": 2406
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance46",
+        "time": 2420
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance37",
+        "time": 2574
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance61",
+        "time": 2599
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance71",
+        "time": 2614
+    },
+    {
+        "duration": 340,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance71",
+        "time": 2638
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance71",
+        "time": 2639
+    },
+    {
+        "duration": 10,
+        "text": "A simple article about some president",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 2841
+    },
+    {
+        "duration": 20,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance71",
+        "time": 2987
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for POK group)[top-down]",
+        "interactionType": "Topic_change",
+        "id": "top-down",
+        "time": 3191
+    },
+    {
+        "duration": 10,
+        "text": "Protectors of Kronos",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 3204
+    },
+    {
+        "duration": 10,
+        "text": "This time not a many things here about them",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 3241
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance68",
+        "time": 3321
+    },
+    {
+        "duration": 770,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance68",
+        "time": 3337
+    },
+    {
+        "duration": 536,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance68",
+        "time": 3338
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance68",
+        "time": 3343
+    },
+    {
+        "duration": 10,
+        "text": "This one blames government and Gastech for some water problem",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 3781
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance68",
+        "time": 3889
+    },
+    {
+        "duration": 10,
+        "text": "Additionally, WFA has been working with the activist group Protectors of Kronos to lobby the government to apply pressure.",
+        "interactionType": "Highlight",
+        "id": "disappearance68",
+        "time": 3917
+    },
+    {
+        "duration": 150,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance68",
+        "time": 3919
+    },
+    {
+        "duration": 10,
+        "text": "WFA, the group directs blame to the Government of Kronos and GAStech International, a natural gas company from Tethys.",
+        "interactionType": "Highlight",
+        "id": "disappearance68",
+        "time": 4085
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance68",
+        "time": 4087
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance68",
+        "time": 4115
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance150",
+        "time": 4166
+    },
+    {
+        "duration": 10,
+        "text": "There also another one form 1998",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 4181
+    },
+    {
+        "duration": 195,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance150",
+        "time": 4183
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance150",
+        "time": 4184
+    },
+    {
+        "duration": 25,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance150",
+        "time": 4392
+    },
+    {
+        "duration": 10,
+        "text": "Not important at all",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 4411
+    },
+    {
+        "duration": 10,
+        "text": "Events happend in Jan 2014. let's see if there is anything here. yeah there are couple",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 4511
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance59",
+        "time": 4575
+    },
+    {
+        "duration": 20,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance59",
+        "time": 4586
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance54",
+        "time": 4611
+    },
+    {
+        "duration": 22,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance54",
+        "time": 4619
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance4",
+        "time": 4652
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance4",
+        "time": 4661
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance7",
+        "time": 4691
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance7",
+        "time": 4700
+    },
+    {
+        "duration": 10,
+        "text": "Found some document from Jan 2014",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 4701
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance73",
+        "time": 4731
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance73",
+        "time": 4740
+    },
+    {
+        "duration": 72,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance4",
+        "time": 4766
+    },
+    {
+        "duration": 871,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance4",
+        "time": 4839
+    },
+    {
+        "duration": 383,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance4",
+        "time": 4840
+    },
+    {
+        "duration": 10,
+        "text": "Local news organizations have received a ransom note from the POK claiming responsibility and demanding $20 Million from the company.",
+        "interactionType": "Highlight",
+        "id": "disappearance150",
+        "time": 5246
+    },
+    {
+        "duration": 202,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance4",
+        "time": 5248
+    },
+    {
+        "duration": 10,
+        "text": "However, increased activity by POK, APA [Asterian People's Army], and others in the region have significantly increased the risk",
+        "interactionType": "Highlight",
+        "id": "disappearance4",
+        "time": 5466
+    },
+    {
+        "duration": 236,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance4",
+        "time": 5467
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance4",
+        "time": 5719
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance4",
+        "time": 5729
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance4",
+        "time": 5745
+    },
+    {
+        "duration": 10,
+        "text": "So this initial article say's there is POK kidnaping",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 5751
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance54",
+        "time": 5772
+    },
+    {
+        "duration": 427,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance54",
+        "time": 5781
+    },
+    {
+        "duration": 395,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance54",
+        "time": 5782
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for evidences of kidnaping) [top-down]",
+        "interactionType": "Topic_change",
+        "id": "top-down",
+        "time": 6071
+    },
+    {
+        "duration": 10,
+        "text": "One employee, Edvard Vann of Abila, was questioned for hours because he shares a family name with several known POK members. Vann denied involvement with the POK and claimed to have no knowledge of the kidnapping.",
+        "interactionType": "Highlight",
+        "id": "disappearance4",
+        "time": 6195
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance54",
+        "time": 6216
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance4,disappearance54",
+        "time": 6261
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance7",
+        "time": 6282
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance73",
+        "time": 6289
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance84",
+        "time": 6303
+    },
+    {
+        "duration": 563,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance84",
+        "time": 6324
+    },
+    {
+        "duration": 425,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance84",
+        "time": 6325
+    },
+    {
+        "duration": 10,
+        "text": "It says POK took responsibility",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 6701
+    },
+    {
+        "duration": 10,
+        "text": "the protectors of Kronos not only have taken the responsibility from the kidnapping of the international employees of GAStech, but also they have made a demand of the rescue of $20M of the president and the CEO Sten Sanjorge",
+        "interactionType": "Highlight",
+        "id": "disappearance54",
+        "time": 6760
+    },
+    {
+        "duration": 96,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance84",
+        "time": 6761
+    },
+    {
+        "duration": 10,
+        "text": "They have been protesting for the clean water, human rights, and against the corruption of the government of international Kronos and GAStech.",
+        "interactionType": "Highlight",
+        "id": "disappearance84",
+        "time": 6867
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance84",
+        "time": 6896
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance84",
+        "time": 6924
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance54,disappearance84",
+        "time": 6958
+    },
+    {
+        "duration": 24,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance54",
+        "time": 7035
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance59",
+        "time": 7080
+    },
+    {
+        "duration": 111,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance59",
+        "time": 7091
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance59",
+        "time": 7167
+    },
+    {
+        "duration": 10,
+        "text": "This one just says like the other ones",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 7191
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance59",
+        "time": 7225
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance84,disappearance59",
+        "time": 7230
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance59",
+        "time": 7242
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance7",
+        "time": 7272
+    },
+    {
+        "duration": 1101,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance7",
+        "time": 7279
+    },
+    {
+        "duration": 623,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance7",
+        "time": 7280
+    },
+    {
+        "duration": 10,
+        "text": "This one says no one claims responsibility for the kidnaping. which doesn't go with what the other articles have said",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 7891
+    },
+    {
+        "duration": 10,
+        "text": "At this time no one has claimed responsibility for the kidnapping.",
+        "interactionType": "Highlight",
+        "id": "disappearance84",
+        "time": 7916
+    },
+    {
+        "duration": 339,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance7",
+        "time": 7918
+    },
+    {
+        "duration": 10,
+        "text": "Again Edward Vann is mentioned here. because he shares family name with one of POK members",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 8131
+    },
+    {
+        "duration": 10,
+        "text": "Edvard Vann",
+        "interactionType": "Highlight",
+        "id": "disappearance7",
+        "time": 8269
+    },
+    {
+        "duration": 103,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance7",
+        "time": 8270
+    },
+    {
+        "duration": 10,
+        "text": "How is Edvard Vann",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 8291
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance7",
+        "time": 8387
+    },
+    {
+        "duration": 10,
+        "text": "So far I know most of articles says POK claims the responsibility for the kidnaping and demand of $20M from the company. but one of the articles said no body claimed the responsibility. Also the name Edward Vann has come up twice so far",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 8481
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance73",
+        "time": 9206
+    },
+    {
+        "duration": 93,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance73",
+        "time": 9216
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance73",
+        "time": 9224
+    },
+    {
+        "duration": 22,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance73",
+        "time": 9314
+    },
+    {
+        "duration": 10,
+        "text": "What was happening in Jan 2014? Is there any articles shortly after?",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 9421
+    },
+    {
+        "duration": 39,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance135",
+        "time": 9614
+    },
+    {
+        "duration": 559,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance135",
+        "time": 9654
+    },
+    {
+        "duration": 501,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance135",
+        "time": 9655
+    },
+    {
+        "duration": 10,
+        "text": "So it seems POK has threatend before",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 10121
+    },
+    {
+        "duration": 10,
+        "text": "the tried letters to be of the protectors of Kronos (POK) have been received by Vincent Kapelou,",
+        "interactionType": "Highlight",
+        "id": "disappearance54",
+        "time": 10171
+    },
+    {
+        "duration": 27,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance135",
+        "time": 10173
+    },
+    {
+        "duration": 33,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance135",
+        "time": 10226
+    },
+    {
+        "duration": 10,
+        "text": "Edvard Vann",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 10332
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance96",
+        "time": 10353
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance96",
+        "time": 10373
+    },
+    {
+        "duration": 1538,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance96",
+        "time": 10397
+    },
+    {
+        "duration": 1120,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance96",
+        "time": 10398
+    },
+    {
+        "duration": 10,
+        "text": "Still reading the document",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 10661
+    },
+    {
+        "duration": 10,
+        "text": "It says 14 people were kidnaped",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 10901
+    },
+    {
+        "duration": 10,
+        "text": "Still reading the document",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 11381
+    },
+    {
+        "duration": 10,
+        "text": " Edvard Vann, GAStech - Kronos the security guard which was questioned and after 6 hours was delivered, the daders behind the events of today indicated became suspicious on the guards of Kronos such as are. ",
+        "interactionType": "Highlight",
+        "id": "disappearance84",
+        "time": 11531
+    },
+    {
+        "duration": 358,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance96",
+        "time": 11532
+    },
+    {
+        "duration": 10,
+        "text": "It mentions a fire alarm that happend. there are report",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 11681
+    },
+    {
+        "duration": 10,
+        "text": "The affirmative reports of a fire on the office ",
+        "interactionType": "Highlight",
+        "id": "disappearance96",
+        "time": 11904
+    },
+    {
+        "duration": 10,
+        "text": "There are reports of the fire in the office responded and then this Edward Vann was questions",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 11911
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance96",
+        "time": 11942
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance96,disappearance54",
+        "time": 11977
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance59",
+        "time": 12225
+    },
+    {
+        "duration": 25,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance59",
+        "time": 12232
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance71",
+        "time": 12293
+    },
+    {
+        "duration": 10,
+        "text": "I'm going to search for the CEO",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 12461
+    },
+    {
+        "duration": 465,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance141",
+        "time": 12572
+    },
+    {
+        "duration": 122,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance141",
+        "time": 12573
+    },
+    {
+        "duration": 0,
+        "text": " (What is going on with people dressed in black) [top-down]",
+        "interactionType": "Topic_change",
+        "id": "top-down",
+        "time": 12641
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance140",
+        "time": 12695
+    },
+    {
+        "duration": 10,
+        "text": "There's an artcle here talking about people dressed in black before the fire alarms",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 12701
+    },
+    {
+        "duration": 277,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance141",
+        "time": 12702
+    },
+    {
+        "duration": 10,
+        "text": " see much people dressed in the black one in the construction before the fire fire signaler",
+        "interactionType": "Highlight",
+        "id": "disappearance141",
+        "time": 12996
+    },
+    {
+        "duration": 33,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance141",
+        "time": 13049
+    },
+    {
+        "duration": 614,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance136",
+        "time": 13121
+    },
+    {
+        "duration": 585,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 13122
+    },
+    {
+        "duration": 10,
+        "text": "I'm reading through different articles about the time of incident",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 13171
+    },
+    {
+        "duration": 10,
+        "text": "This has the same day as kidnaping. a private jet arrived at the airport",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 13421
+    },
+    {
+        "duration": 10,
+        "text": "Petrus Gerhard reports airport officials have confirmed the arrival of a private jet from Tethys. Several passengers departed into a waiting limousine. Gerhard followed the limousine, which drove directly to Abila Police Headquarters",
+        "interactionType": "Highlight",
+        "id": "disappearance141",
+        "time": 13717
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance136",
+        "time": 13743
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance147",
+        "time": 13817
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance148",
+        "time": 13828
+    },
+    {
+        "duration": 1488,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance148",
+        "time": 13836
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance148",
+        "time": 13837
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance148",
+        "time": 13841
+    },
+    {
+        "duration": 10,
+        "text": "I'm trying to figure out what actually happend and get more details during that day.",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 13931
+    },
+    {
+        "duration": 10,
+        "text": "This one is again hard to understand. mentions people dressing all in black. I can't understand what are they trying to say",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 14931
+    },
+    {
+        "duration": 10,
+        "text": "Beyond that he employs you to it of GAStech, the suppliers for the reunion of the first breakfast, that they have been dressed all in the black one, have been freed.",
+        "interactionType": "Highlight",
+        "id": "disappearance148",
+        "time": 15161
+    },
+    {
+        "duration": 19,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance148",
+        "time": 15330
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance141,disappearance148",
+        "time": 15370
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance71",
+        "time": 15381
+    },
+    {
+        "duration": 10,
+        "text": "black",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 15458
+    },
+    {
+        "duration": 26,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance26",
+        "time": 15492
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance26",
+        "time": 15538
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance130",
+        "time": 15553
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance62",
+        "time": 15571
+    },
+    {
+        "duration": 96,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance62",
+        "time": 15587
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance16",
+        "time": 15705
+    },
+    {
+        "duration": 215,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance16",
+        "time": 15714
+    },
+    {
+        "duration": 193,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance16",
+        "time": 15715
+    },
+    {
+        "duration": 10,
+        "text": "Apparent Kronos Government officials arrived at the GAStech headquarters. They arrived in an unmarked black car with tinted windows and were allowed through the police cordon.",
+        "interactionType": "Highlight",
+        "id": "disappearance136",
+        "time": 15916
+    },
+    {
+        "duration": 34,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance16",
+        "time": 15941
+    },
+    {
+        "duration": 22,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance16",
+        "time": 15998
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance136,disappearance16",
+        "time": 16086
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance20",
+        "time": 16115
+    },
+    {
+        "duration": 374,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance20",
+        "time": 16126
+    },
+    {
+        "duration": 29,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance20",
+        "time": 16127
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance20",
+        "time": 16154
+    },
+    {
+        "duration": 10,
+        "text": "This one says they had been dressed in black in a conference room with the Gastech to take place",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 16371
+    },
+    {
+        "duration": 10,
+        "text": "The unknown shadowy people lurking around the meeting room weren't GAStech employees and were dressed in black and seemed to be standing, watching in the background.",
+        "interactionType": "Highlight",
+        "id": "disappearance20",
+        "time": 16443
+    },
+    {
+        "duration": 29,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance20",
+        "time": 16511
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance141,disappearance20",
+        "time": 16569
+    },
+    {
+        "duration": 35,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance26",
+        "time": 16611
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance26",
+        "time": 16650
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance130",
+        "time": 16679
+    },
+    {
+        "duration": 377,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance130",
+        "time": 16689
+    },
+    {
+        "duration": 183,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance130",
+        "time": 16690
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance139",
+        "time": 16873
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance130",
+        "time": 16882
+    },
+    {
+        "duration": 99,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance130",
+        "time": 16940
+    },
+    {
+        "duration": 10,
+        "text": "In addition to the GAStech employees, the caterers for the breakfast meeting, who were dressed all in black, have been released.",
+        "interactionType": "Highlight",
+        "id": "disappearance130",
+        "time": 17050
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance130",
+        "time": 17052
+    },
+    {
+        "duration": 81,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance130",
+        "time": 17075
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance130,disappearance20",
+        "time": 17198
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance103",
+        "time": 17249
+    },
+    {
+        "duration": 34,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance103",
+        "time": 17257
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance31",
+        "time": 17298
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance31",
+        "time": 17306
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance14",
+        "time": 17344
+    },
+    {
+        "duration": 227,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance14",
+        "time": 17352
+    },
+    {
+        "duration": 204,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance14",
+        "time": 17353
+    },
+    {
+        "duration": 10,
+        "text": "- A black government sedan has arrived hardly to the centers of GAStech",
+        "interactionType": "Highlight",
+        "id": "disappearance141",
+        "time": 17569
+    },
+    {
+        "duration": 36,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance14",
+        "time": 17606
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance16,disappearance14",
+        "time": 17683
+    },
+    {
+        "duration": 246,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance23",
+        "time": 17761
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance23",
+        "time": 17762
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance23",
+        "time": 17767
+    },
+    {
+        "duration": 10,
+        "text": "people to you the present in black who the morning was the suppliers.",
+        "interactionType": "Highlight",
+        "id": "disappearance23",
+        "time": 17986
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance23",
+        "time": 18015
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance23,disappearance20",
+        "time": 18062
+    },
+    {
+        "duration": 10,
+        "text": "So the caterers were dressed in black. the government sedan which showed in these articles were also in black. I still don't know much about Edward Vann",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 18121
+    },
+    {
+        "duration": 10,
+        "text": "Vann",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 18332
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for connections between Edward Vann and POK) [top-down]",
+        "interactionType": "Topic_change",
+        "id": "top-down",
+        "time": 18341
+    },
+    {
+        "duration": 10,
+        "text": "Right now he is the connection to POK",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 18451
+    },
+    {
+        "duration": 130,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance76",
+        "time": 18538
+    },
+    {
+        "duration": 51,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance132",
+        "time": 18676
+    },
+    {
+        "duration": 10,
+        "text": "This one is about he saying that the POK is involved",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 18681
+    },
+    {
+        "duration": 453,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance137",
+        "time": 18745
+    },
+    {
+        "duration": 230,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance137",
+        "time": 18746
+    },
+    {
+        "duration": 162,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance137",
+        "time": 18988
+    },
+    {
+        "duration": 10,
+        "text": "So. there is a girl name Juliana here. who died in 1998. because of contaminated water from Gastech. then she became the icon of POK",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 19051
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance114",
+        "time": 19150
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance137",
+        "time": 19156
+    },
+    {
+        "duration": 10,
+        "text": "Ten-year old Juliana Vann died in 1998 from an illness caused by contaminated water from GAStech drilling operations. She has become the heart-rending icon of a movement that has gained support from one end of Kronos to the other. ",
+        "interactionType": "Highlight",
+        "id": "disappearance137",
+        "time": 19182
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance137",
+        "time": 19215
+    },
+    {
+        "duration": 10,
+        "text": "She has connection to Edward Vann. they share a last name",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 19291
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance132",
+        "time": 19301
+    },
+    {
+        "duration": 55,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance132",
+        "time": 19311
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance76",
+        "time": 19371
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance76",
+        "time": 19381
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance123",
+        "time": 19405
+    },
+    {
+        "duration": 152,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance123",
+        "time": 19414
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance123",
+        "time": 19415
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance123",
+        "time": 19422
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance123",
+        "time": 19425
+    },
+    {
+        "duration": 22,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance123",
+        "time": 19573
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance86",
+        "time": 19605
+    },
+    {
+        "duration": 81,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance86",
+        "time": 19612
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance86",
+        "time": 19697
+    },
+    {
+        "duration": 88,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance86",
+        "time": 19719
+    },
+    {
+        "duration": 56,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance86",
+        "time": 19720
+    },
+    {
+        "duration": 10,
+        "text": "There's also someone name Elian Karel ",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 19751
+    },
+    {
+        "duration": 10,
+        "text": "Elian Karel and Juliana Vann",
+        "interactionType": "Highlight",
+        "id": "disappearance84",
+        "time": 19793
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance86,disappearance137",
+        "time": 19824
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance57",
+        "time": 19849
+    },
+    {
+        "duration": 364,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance57",
+        "time": 19857
+    },
+    {
+        "duration": 175,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance57",
+        "time": 19858
+    },
+    {
+        "duration": 10,
+        "text": "She died because of benzin poisoning which is connected to Gastech",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 20011
+    },
+    {
+        "duration": 10,
+        "text": "The cause of death was leukemia due to the benzene poisoning",
+        "interactionType": "Highlight",
+        "id": "disappearance54",
+        "time": 20044
+    },
+    {
+        "duration": 19,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance57",
+        "time": 20227
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance57,disappearance86",
+        "time": 20262
+    },
+    {
+        "duration": 10,
+        "text": "<div class=\"ui-resizable-handle ui-resizable-w\" style=\"z-index: 1000;\"></div><div class=\"ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se\" style=\"z-index: 1000;\"></div><div class=\"ui-resizable-handle ui-resizable-sw\" style=\"z-index: 1000;\"></div><div class=\"ui-resizable-handle ui-resizable-ne\" style=\"z-index: 1000;\"></div><div class=\"ui-resizable-handle ui-resizable-nw\" style=\"z-index: 1000;\"></div><div id=\"jsonDialog91\" class=\"doc-set docSet ui-dialog-content ui-widget-content ui-resizable ui-dialog-normal scrunch-doc\" data-id=\"original\" data-source=\"set4\" scrolltop=\"145.55555941146108\" scrollleft=\"0\" data-height=\"348px\" data-width=\"496px\" style=\"width: auto; min-height: 0px; height: auto; display: block;\"> Edvard <span class=\"highlight-pink\">Vann</span></div>",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 20429
+    },
+    {
+        "duration": 10,
+        "text": "I'm trying to see if there is any connection between her and Edward Vann",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 20461
+    },
+    {
+        "duration": 10,
+        "text": "Edvard Vann",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 20496
+    },
+    {
+        "duration": 10,
+        "text": "uhh. not mentioned in any of other documents",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 20541
+    },
+    {
+        "duration": 10,
+        "text": "Vann",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 20564
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance61",
+        "time": 20596
+    },
+    {
+        "duration": 274,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance61",
+        "time": 20613
+    },
+    {
+        "duration": 249,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance61",
+        "time": 20614
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance92",
+        "time": 20901
+    },
+    {
+        "duration": 595,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance92",
+        "time": 20909
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance92",
+        "time": 20910
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance92",
+        "time": 20914
+    },
+    {
+        "duration": 10,
+        "text": "Still reading the document",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 21281
+    },
+    {
+        "duration": 710,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance90",
+        "time": 21513
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance90",
+        "time": 21514
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance90",
+        "time": 21521
+    },
+    {
+        "duration": 10,
+        "text": "Who will be able to lead POK now?",
+        "interactionType": "Highlight",
+        "id": "disappearance90",
+        "time": 21874
+    },
+    {
+        "duration": 91,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance90",
+        "time": 21875
+    },
+    {
+        "duration": 102,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance69",
+        "time": 21977
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance69",
+        "time": 21978
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance69",
+        "time": 21983
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance90",
+        "time": 22081
+    },
+    {
+        "duration": 10,
+        "text": "Edvard",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 22117
+    },
+    {
+        "duration": 10,
+        "text": "So I'm not finding any connection between Edward Vann and anything else going on.",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 22201
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance90",
+        "time": 22230
+    },
+    {
+        "duration": 10,
+        "text": "Karel",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 22369
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for relations between Karel and POK) [bottom-up]",
+        "interactionType": "Topic_change",
+        "id": "bottom-up",
+        "time": 22371
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance92",
+        "time": 22396
+    },
+    {
+        "duration": 155,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance105",
+        "time": 22426
+    },
+    {
+        "duration": 111,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance105",
+        "time": 22427
+    },
+    {
+        "duration": 79,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance72",
+        "time": 22594
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance72",
+        "time": 22595
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance72",
+        "time": 22600
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance49",
+        "time": 22681
+    },
+    {
+        "duration": 498,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance49",
+        "time": 22688
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance49",
+        "time": 22689
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance49",
+        "time": 22694
+    },
+    {
+        "duration": 10,
+        "text": "Looks like Julia was Elien's neighbor. which shows a connection between two of them",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 23011
+    },
+    {
+        "duration": 10,
+        "text": " By the time that Elian 17 much of its family members and the friends constant sickness vochten, including its neighbor 10 were years - old Juliana Vann.",
+        "interactionType": "Highlight",
+        "id": "disappearance49",
+        "time": 23042
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance49",
+        "time": 23204
+    },
+    {
+        "duration": 29,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance49",
+        "time": 23216
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance49,disappearance86",
+        "time": 23284
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance49",
+        "time": 23295
+    },
+    {
+        "duration": 20,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance57",
+        "time": 23321
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance49",
+        "time": 23352
+    },
+    {
+        "duration": 80,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance119",
+        "time": 23386
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance99",
+        "time": 23474
+    },
+    {
+        "duration": 82,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance99",
+        "time": 23482
+    },
+    {
+        "duration": 14,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance99",
+        "time": 23483
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance24",
+        "time": 23570
+    },
+    {
+        "duration": 21661,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance24",
+        "time": 23578
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 23579
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance24",
+        "time": 23583
+    },
+    {
+        "duration": 651,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance15",
+        "time": 23936
+    },
+    {
+        "duration": 428,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance15",
+        "time": 23937
+    },
+    {
+        "duration": 10,
+        "text": "Looks like Karel was potentially murdered in his cell",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 24211
+    },
+    {
+        "duration": 197,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance15",
+        "time": 24367
+    },
+    {
+        "duration": 10,
+        "text": "The anonymous sources close to research, however, provided the testimony of witness that the body of Karel showed with signs of trauma blunted, abrasions and lacerations of force what occurred in hours before its death.",
+        "interactionType": "Highlight",
+        "id": "disappearance15",
+        "time": 24573
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance15",
+        "time": 24574
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance15",
+        "time": 24595
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance15,disappearance49",
+        "time": 24629
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 24664
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance34",
+        "time": 24673
+    },
+    {
+        "duration": 19636,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance34",
+        "time": 24680
+    },
+    {
+        "duration": 162,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance34",
+        "time": 24681
+    },
+    {
+        "duration": 10,
+        "text": "But I'm not getting anywhere along ",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 24681
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for private jets at the kidnapping day) [bottom-up]",
+        "interactionType": "Topic_change",
+        "id": "bottom-up",
+        "time": 24771
+    },
+    {
+        "duration": 19455,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance33",
+        "time": 24848
+    },
+    {
+        "duration": 64,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 24849
+    },
+    {
+        "duration": 24,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance32",
+        "time": 24913
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance31",
+        "time": 24937
+    },
+    {
+        "duration": 3348,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance31",
+        "time": 24944
+    },
+    {
+        "duration": 500,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance31",
+        "time": 24945
+    },
+    {
+        "duration": 10,
+        "text": "a lot of POK protests ending violently",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 25361
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 25445
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance34",
+        "time": 25445
+    },
+    {
+        "duration": 536,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance19",
+        "time": 25453
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 25454
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance19",
+        "time": 25458
+    },
+    {
+        "duration": 10,
+        "text": "Two private jets took oof on the day of kidnaping",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 25651
+    },
+    {
+        "duration": 30,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 25880
+    },
+    {
+        "duration": 10,
+        "text": " The second plane also carried seven or eight business types, but seemed much more relaxed than the first group of passengers. The second plane departed around 14:30 around two hours after the first plane.",
+        "interactionType": "Highlight",
+        "id": "disappearance19",
+        "time": 25921
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance19",
+        "time": 25996
+    },
+    {
+        "duration": 1396,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance136",
+        "time": 26045
+    },
+    {
+        "duration": 108,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 26046
+    },
+    {
+        "duration": 2318,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance19",
+        "time": 26164
+    },
+    {
+        "duration": 275,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 26165
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance19",
+        "time": 26172
+    },
+    {
+        "duration": 10,
+        "text": "Opeing an old document about the jets and comparing",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 26181
+    },
+    {
+        "duration": 10,
+        "text": "I want to see if I can find more about these jets that took off",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 26451
+    },
+    {
+        "duration": 10,
+        "text": "plane",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 26459
+    },
+    {
+        "duration": 27,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 26461
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 26489
+    },
+    {
+        "duration": 22,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 26494
+    },
+    {
+        "duration": 27,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 26516
+    },
+    {
+        "duration": 10,
+        "text": "jet",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 26553
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 26555
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 26559
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 26564
+    },
+    {
+        "duration": 14763,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance104",
+        "time": 26575
+    },
+    {
+        "duration": 318,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 26576
+    },
+    {
+        "duration": 10,
+        "text": "There are several reports about jets coming and a private limousine",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 26821
+    },
+    {
+        "duration": 391,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance53",
+        "time": 26906
+    },
+    {
+        "duration": 193,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance53",
+        "time": 26907
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 27100
+    },
+    {
+        "duration": 135,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 27108
+    },
+    {
+        "duration": 10,
+        "text": "The jet was a Gastech executive",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 27201
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 27248
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 27249
+    },
+    {
+        "duration": 27,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance53",
+        "time": 27249
+    },
+    {
+        "duration": 10,
+        "text": "The GAStech executive jet arrived at the airport. The occupants were taken by limousine to the GAStech building.",
+        "interactionType": "Highlight",
+        "id": "disappearance53",
+        "time": 27285
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance53",
+        "time": 27307
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance53,disappearance16",
+        "time": 27380
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance136",
+        "time": 27458
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance136",
+        "time": 27525
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance136",
+        "time": 27545
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 27705
+    },
+    {
+        "duration": 52,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance17",
+        "time": 27715
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance17",
+        "time": 27716
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance17",
+        "time": 27719
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 27771
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 27772
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance34",
+        "time": 27772
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance47",
+        "time": 27778
+    },
+    {
+        "duration": 17442,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance47",
+        "time": 27786
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 27787
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance47",
+        "time": 27790
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 28280
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 28296
+    },
+    {
+        "duration": 116,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 28298
+    },
+    {
+        "duration": 10,
+        "text": "One arrived and people went to police headquarters. not finding where the other one went",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 28381
+    },
+    {
+        "duration": 27434,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance19",
+        "time": 28550
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 28551
+    },
+    {
+        "duration": 27309,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance136",
+        "time": 28584
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 28585
+    },
+    {
+        "duration": 116,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 28593
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 28709
+    },
+    {
+        "duration": 10,
+        "text": "Note",
+        "interactionType": "Create Note",
+        "id": 0,
+        "time": 28725
+    },
+    {
+        "duration": 10,
+        "text": "2 Jets leave Abila 1230, 2:30 - Second had business people on it",
+        "interactionType": "Add note",
+        "id": 0,
+        "time": 28741
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 29165
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 29184
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance19,mynotes1",
+        "time": 29204
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 29304
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 29306
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 29306
+    },
+    {
+        "duration": 27188,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance53",
+        "time": 29322
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance53",
+        "time": 29323
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance53",
+        "time": 29331
+    },
+    {
+        "duration": 107,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance53",
+        "time": 29377
+    },
+    {
+        "duration": 10,
+        "text": "Reviewing documets and highlights about two jets",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 29421
+    },
+    {
+        "duration": 65,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance14",
+        "time": 29498
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance14",
+        "time": 29499
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance14",
+        "time": 29507
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance53",
+        "time": 29548
+    },
+    {
+        "duration": 477,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 29577
+    },
+    {
+        "duration": 10,
+        "text": "The jet arrving from Tethys later in the day",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 29941
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 30054
+    },
+    {
+        "duration": 10,
+        "text": "fire",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 30104
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for when the fire alram heppend) [bottom-up]",
+        "interactionType": "Topic_change",
+        "id": "bottom-up",
+        "time": 30111
+    },
+    {
+        "duration": 25273,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance124",
+        "time": 30128
+    },
+    {
+        "duration": 150,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 30129
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance118",
+        "time": 30279
+    },
+    {
+        "duration": 11015,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance79",
+        "time": 30304
+    },
+    {
+        "duration": 301,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 30305
+    },
+    {
+        "duration": 10,
+        "text": "It says the fire alarm goes off on 10:50 in the morning",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 30481
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 30606
+    },
+    {
+        "duration": 10,
+        "text": "Note",
+        "interactionType": "Create Note",
+        "id": 0,
+        "time": 30625
+    },
+    {
+        "duration": 10,
+        "text": "Fire alarm went off at 10:15 a.m. False alarm",
+        "interactionType": "Add note",
+        "id": 0,
+        "time": 30631
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 31218
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 31219
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance9",
+        "time": 31227
+    },
+    {
+        "duration": 945,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance9",
+        "time": 31235
+    },
+    {
+        "duration": 182,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance9",
+        "time": 31236
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 31418
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 31419
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 31419
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 31419
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 31472
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 31473
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 31473
+    },
+    {
+        "duration": 40,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance9",
+        "time": 31474
+    },
+    {
+        "duration": 10,
+        "text": "It says the fire alarm was a false alarm",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 31481
+    },
+    {
+        "duration": 10,
+        "text": "Captain Federigo Accardi of the fire of Abila announces that it was a false alarm and the construction is sure",
+        "interactionType": "Highlight",
+        "id": "disappearance9",
+        "time": 31525
+    },
+    {
+        "duration": 49,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance9",
+        "time": 31527
+    },
+    {
+        "duration": 565,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance5",
+        "time": 31587
+    },
+    {
+        "duration": 476,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance5",
+        "time": 31588
+    },
+    {
+        "duration": 10,
+        "text": "It says building was evacuated but non of executive staff never came out. ",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 31841
+    },
+    {
+        "duration": 50,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance5",
+        "time": 32066
+    },
+    {
+        "duration": 10,
+        "text": "and so far no sign of Sanjorge or his executive staff.",
+        "interactionType": "Highlight",
+        "id": "disappearance5",
+        "time": 32130
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 32161
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 32303
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 32315
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance5,disappearance9",
+        "time": 32323
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 32327
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance9,disappearance6",
+        "time": 32338
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance5",
+        "time": 32342
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance34",
+        "time": 32359
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 32359
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance9",
+        "time": 32367
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance34",
+        "time": 32456
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 32456
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance3",
+        "time": 32469
+    },
+    {
+        "duration": 167,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance3",
+        "time": 32478
+    },
+    {
+        "duration": 43,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance3",
+        "time": 32479
+    },
+    {
+        "duration": 118,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance6",
+        "time": 32663
+    },
+    {
+        "duration": 203,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance8",
+        "time": 32797
+    },
+    {
+        "duration": 170,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance8",
+        "time": 32798
+    },
+    {
+        "duration": 10,
+        "text": "Here it says the evacuation was cause to a bomb threat",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 32921
+    },
+    {
+        "duration": 10,
+        "text": "There is speculation that this evacuation was caused due to a bomb threat",
+        "interactionType": "Highlight",
+        "id": "disappearance3",
+        "time": 32986
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 33003
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance8",
+        "time": 33013
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance8,disappearance5",
+        "time": 33043
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance12",
+        "time": 33060
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance13",
+        "time": 33081
+    },
+    {
+        "duration": 11186,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance13",
+        "time": 33088
+    },
+    {
+        "duration": 256,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 33089
+    },
+    {
+        "duration": 10,
+        "text": "Tethys",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 33360
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 33363
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 33372
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance6",
+        "time": 33377
+    },
+    {
+        "duration": 49,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance6",
+        "time": 33387
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance31",
+        "time": 33440
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance31",
+        "time": 33451
+    },
+    {
+        "duration": 6310,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance30",
+        "time": 33480
+    },
+    {
+        "duration": 186,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 33481
+    },
+    {
+        "duration": 10,
+        "text": "resident and CEO of GAStech International Sten Sanjorge, Jr. The filings show that the GAStech - Kronos executives earned a collective $327.25 million from the newly vested shares including $96.25 ",
+        "interactionType": "Highlight",
+        "id": "disappearance33",
+        "time": 33681
+    },
+    {
+        "duration": 113,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 33682
+    },
+    {
+        "duration": 10,
+        "text": "Sanjorge",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 33803
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 33805
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance77",
+        "time": 33829
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 33836
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 33836
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 33837
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 33837
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 33842
+    },
+    {
+        "duration": 94,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 33842
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 33936
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 33940
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 33948
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 33949
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 33960
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance10",
+        "time": 33970
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance10",
+        "time": 33978
+    },
+    {
+        "duration": 42,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance10",
+        "time": 33997
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance2",
+        "time": 34050
+    },
+    {
+        "duration": 170,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance2",
+        "time": 34057
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 34237
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 34246
+    },
+    {
+        "duration": 14527,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance25",
+        "time": 34258
+    },
+    {
+        "duration": 934,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 34259
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for kidnapping and POK ransom note) [bottom-up]",
+        "interactionType": "Topic_change",
+        "id": "bottom-up",
+        "time": 34271
+    },
+    {
+        "duration": 10,
+        "text": "Still reading the document",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 34601
+    },
+    {
+        "duration": 10,
+        "text": "Still reading the document",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 34871
+    },
+    {
+        "duration": 10,
+        "text": "This one again confirms the POK kidnaping and$20M demanding",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 35101
+    },
+    {
+        "duration": 10,
+        "text": "The local organizations of news received a note of ransom of the claiming responsibility and to require POK $20 million the company.",
+        "interactionType": "Highlight",
+        "id": "disappearance104",
+        "time": 35205
+    },
+    {
+        "duration": 324,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 35207
+    },
+    {
+        "duration": 10,
+        "text": "John Rathburn, an American expert in executive kidnappings who lives in Tethys, known as that Kronos was not known like archetypal country for removal. However, the activity increased by POK, the APA [the popular army of Asterian], and others in the area appreciably increased the risk.",
+        "interactionType": "Highlight",
+        "id": "disappearance25",
+        "time": 35541
+    },
+    {
+        "duration": 142,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 35543
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 35685
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 35686
+    },
+    {
+        "duration": 57,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance95",
+        "time": 35702
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance70",
+        "time": 35769
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance117",
+        "time": 35793
+    },
+    {
+        "duration": 9405,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance117",
+        "time": 35805
+    },
+    {
+        "duration": 211,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 35806
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 36017
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36027
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 36028
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36030
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 36031
+    },
+    {
+        "duration": 70,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36038
+    },
+    {
+        "duration": 10,
+        "text": "RANSOM",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 36131
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36134
+    },
+    {
+        "duration": 10,
+        "text": "<span class=\"highlight-pink\">RANSOM</span>",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 36154
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36156
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36174
+    },
+    {
+        "duration": 10,
+        "text": "RANSOM",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 36196
+    },
+    {
+        "duration": 22,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36198
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 36221
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 36221
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance4",
+        "time": 36233
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance59",
+        "time": 36272
+    },
+    {
+        "duration": 20229,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance59",
+        "time": 36281
+    },
+    {
+        "duration": 67,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 36282
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36350
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 36355
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance70",
+        "time": 36775
+    },
+    {
+        "duration": 44,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36793
+    },
+    {
+        "duration": 10,
+        "text": "Reported like yesterday, one speculated that Sanjorge were, Jr. the aim of removal; however, Sanjorge, Jr. are safely in Tethys",
+        "interactionType": "Highlight",
+        "id": "disappearance117",
+        "time": 36850
+    },
+    {
+        "duration": 76,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36852
+    },
+    {
+        "duration": 10,
+        "text": "Sanjorge",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 36943
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 36946
+    },
+    {
+        "duration": 124,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance70",
+        "time": 36960
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 37094
+    },
+    {
+        "duration": 318,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance77",
+        "time": 37112
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance2",
+        "time": 37441
+    },
+    {
+        "duration": 60,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance2",
+        "time": 37448
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 37525
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 37527
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 37528
+    },
+    {
+        "duration": 201,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance12",
+        "time": 37537
+    },
+    {
+        "duration": 10,
+        "text": "after the fire alam the building was evacuated but Sanjeorg and several the other executive never came out of the building. and they're assumed to be kidnaped",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 38271
+    },
+    {
+        "duration": 10,
+        "text": "there is am APA that I have not investigated yet. ",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 38591
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 38972
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 38973
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 38973
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 38979
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 38980
+    },
+    {
+        "duration": 14,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 38982
+    },
+    {
+        "duration": 72,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance151",
+        "time": 39004
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for APA and IPO groups and its relations to incidents) [bottom-up]",
+        "interactionType": "Topic_change",
+        "id": "bottom-up",
+        "time": 39111
+    },
+    {
+        "duration": 10,
+        "text": "APA",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 39113
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 39133
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 39134
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 39134
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 39134
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance91",
+        "time": 39139
+    },
+    {
+        "duration": 899,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance91",
+        "time": 39153
+    },
+    {
+        "duration": 309,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance91",
+        "time": 39154
+    },
+    {
+        "duration": 10,
+        "text": "So. the fire alarm was pulled in response to a bomb threat",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 39301
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 39463
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 39463
+    },
+    {
+        "duration": 10,
+        "text": "Asterian",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 39506
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 39522
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 39526
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 39533
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 39536
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 39537
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance140",
+        "time": 39541
+    },
+    {
+        "duration": 478,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance140",
+        "time": 39557
+    },
+    {
+        "duration": 60,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance140",
+        "time": 39558
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance140",
+        "time": 39574
+    },
+    {
+        "duration": 10,
+        "text": "Not much information about the APA here",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 39751
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 39766
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 39770
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance140",
+        "time": 39770
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 39771
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance91",
+        "time": 39771
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance34",
+        "time": 39775
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 39776
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 39776
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 39778
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 39791
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance10",
+        "time": 39792
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 39799
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 39800
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance13",
+        "time": 39805
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance91",
+        "time": 39807
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 39809
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance140",
+        "time": 39809
+    },
+    {
+        "duration": 10,
+        "text": "Fire alarm pulled due to bomb threat",
+        "interactionType": "Add note",
+        "id": 0,
+        "time": 39891
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 40023
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 40037
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 40039
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 40039
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 40055
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 40056
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 40059
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 40059
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 40060
+    },
+    {
+        "duration": 10,
+        "text": "Army",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 40095
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 40161
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 40163
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 40164
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 40165
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 40165
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance98",
+        "time": 40172
+    },
+    {
+        "duration": 55,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance98",
+        "time": 40185
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance74",
+        "time": 40248
+    },
+    {
+        "duration": 14,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance100",
+        "time": 40257
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance74",
+        "time": 40271
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance100",
+        "time": 40278
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance97",
+        "time": 40285
+    },
+    {
+        "duration": 89,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance97",
+        "time": 40302
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance97",
+        "time": 40303
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance97",
+        "time": 40307
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 40421
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 40421
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 40421
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 40424
+    },
+    {
+        "duration": 10,
+        "text": "IPO",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 40505
+    },
+    {
+        "duration": 355,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance1",
+        "time": 40539
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance1",
+        "time": 40916
+    },
+    {
+        "duration": 34,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance1",
+        "time": 40925
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 40962
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance30",
+        "time": 40966
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance30",
+        "time": 40973
+    },
+    {
+        "duration": 10,
+        "text": "There is a IPO meeting in Jan 20th",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 40981
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 40999
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 41000
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance51",
+        "time": 41003
+    },
+    {
+        "duration": 242,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance51",
+        "time": 41012
+    },
+    {
+        "duration": 14,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance51",
+        "time": 41013
+    },
+    {
+        "duration": 212,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance128",
+        "time": 41027
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 41287
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance104",
+        "time": 41287
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance79",
+        "time": 41287
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance72",
+        "time": 41292
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance106",
+        "time": 41359
+    },
+    {
+        "duration": 57,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance106",
+        "time": 41367
+    },
+    {
+        "duration": 10,
+        "text": "During the IPO the bomb threat happens. the building evacuation. Jets leave the area at 6:30",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 41521
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 42090
+    },
+    {
+        "duration": 302,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 42164
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 42467
+    },
+    {
+        "duration": 10,
+        "text": "2014",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 42514
+    },
+    {
+        "duration": 10,
+        "text": "If I could find any article about after it",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 42531
+    },
+    {
+        "duration": 10,
+        "text": "Feb 2014",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 42687
+    },
+    {
+        "duration": 10,
+        "text": "Nothing on February",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 42701
+    },
+    {
+        "duration": 10,
+        "text": "Jan 2014",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 42739
+    },
+    {
+        "duration": 10,
+        "text": "21 Jan",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 42838
+    },
+    {
+        "duration": 33,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance4",
+        "time": 42891
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 42928
+    },
+    {
+        "duration": 13570,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance82",
+        "time": 42940
+    },
+    {
+        "duration": 459,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 42941
+    },
+    {
+        "duration": 10,
+        "text": "Ok. so four of the employees were found and more 10 are presumed missing",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 43091
+    },
+    {
+        "duration": 10,
+        "text": "According to this police record POK is suspected for the kidnaping",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 43271
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 43406
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 43409
+    },
+    {
+        "duration": 10,
+        "text": "There are confusing reports that POK actualy did this or not",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 43411
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance82",
+        "time": 43416
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance52",
+        "time": 43474
+    },
+    {
+        "duration": 35,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance52",
+        "time": 43481
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 43522
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance93",
+        "time": 43528
+    },
+    {
+        "duration": 12975,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance93",
+        "time": 43535
+    },
+    {
+        "duration": 643,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 43536
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance93",
+        "time": 44178
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 44194
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 44195
+    },
+    {
+        "duration": 57,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 44199
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 44256
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 44258
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 44261
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance33",
+        "time": 44262
+    },
+    {
+        "duration": 35,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance60",
+        "time": 44327
+    },
+    {
+        "duration": 10,
+        "text": "This one is posted the day after kidnaping",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 44381
+    },
+    {
+        "duration": 779,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance109",
+        "time": 44417
+    },
+    {
+        "duration": 457,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 44418
+    },
+    {
+        "duration": 10,
+        "text": "It say Sten Sanjorge is died. he was the CEO",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 44831
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 44875
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 44880
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 44880
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 44881
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance117",
+        "time": 44886
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 44886
+    },
+    {
+        "duration": 0,
+        "text": " (Looking for CEO and ransom articles) [bottom-up]",
+        "interactionType": "Topic_change",
+        "id": "bottom-up",
+        "time": 44911
+    },
+    {
+        "duration": 10,
+        "text": "Sten Sanjorge",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 44974
+    },
+    {
+        "duration": 10,
+        "text": "Sten Sanjorge Sr",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 45061
+    },
+    {
+        "duration": 10,
+        "text": "Sten Sanjorge",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 45091
+    },
+    {
+        "duration": 10,
+        "text": "let's see if I want other articles about it",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 45131
+    },
+    {
+        "duration": 10,
+        "text": "May 2003",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 45155
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 45183
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45184
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45201
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance24",
+        "time": 45202
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance47",
+        "time": 45202
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45229
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45243
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45244
+    },
+    {
+        "duration": 10,
+        "text": "heart",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 45285
+    },
+    {
+        "duration": 34,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance75",
+        "time": 45311
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 45345
+    },
+    {
+        "duration": 10,
+        "text": "heart attack",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 45421
+    },
+    {
+        "duration": 11045,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance109",
+        "time": 45465
+    },
+    {
+        "duration": 132,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 45466
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45598
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 45627
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45627
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 45628
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 45628
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 45629
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 45631
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 45633
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 45633
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45634
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 45634
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance109",
+        "time": 45641
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 45660
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 45661
+    },
+    {
+        "duration": 10,
+        "text": "Beatriz",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 45761
+    },
+    {
+        "duration": 10,
+        "text": "Sten",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 45812
+    },
+    {
+        "duration": 51,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance117",
+        "time": 45829
+    },
+    {
+        "duration": 27,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance95",
+        "time": 45894
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance70",
+        "time": 45927
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance30",
+        "time": 45952
+    },
+    {
+        "duration": 92,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance3",
+        "time": 45975
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance2",
+        "time": 46070
+    },
+    {
+        "duration": 58,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance2",
+        "time": 46080
+    },
+    {
+        "duration": 29,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance22",
+        "time": 46154
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance98",
+        "time": 46184
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance145",
+        "time": 46191
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance119",
+        "time": 46201
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance111",
+        "time": 46224
+    },
+    {
+        "duration": 30,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance111",
+        "time": 46238
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 46274
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 46274
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance51",
+        "time": 46275
+    },
+    {
+        "duration": 141,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance51",
+        "time": 46284
+    },
+    {
+        "duration": 30,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance151",
+        "time": 46438
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance149",
+        "time": 46472
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance128",
+        "time": 46494
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance104",
+        "time": 46505
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance79",
+        "time": 46512
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance78",
+        "time": 46518
+    },
+    {
+        "duration": 14,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance80",
+        "time": 46527
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance60",
+        "time": 46568
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance36",
+        "time": 46580
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance36",
+        "time": 46602
+    },
+    {
+        "duration": 274,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance42",
+        "time": 46635
+    },
+    {
+        "duration": 209,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance42",
+        "time": 46919
+    },
+    {
+        "duration": 10,
+        "text": "Still reading the document",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 47061
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance70",
+        "time": 47141
+    },
+    {
+        "duration": 43,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance70",
+        "time": 47150
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance95",
+        "time": 47200
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance94",
+        "time": 47223
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance67",
+        "time": 47231
+    },
+    {
+        "duration": 9260,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance67",
+        "time": 47250
+    },
+    {
+        "duration": 114,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 47251
+    },
+    {
+        "duration": 10,
+        "text": "There is speculation that the GAStech executives and the Kronos officials have fled the country with their fortune and money from the Kronos coffers",
+        "interactionType": "Highlight",
+        "id": "disappearance25",
+        "time": 47380
+    },
+    {
+        "duration": 32,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 47381
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 47421
+    },
+    {
+        "duration": 10,
+        "text": "Jan 1014",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 47486
+    },
+    {
+        "duration": 10,
+        "text": "Jan 2014",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 47522
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 47541
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 47546
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance67",
+        "time": 47552
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 47565
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 47566
+    },
+    {
+        "duration": 22,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance45",
+        "time": 47574
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance18",
+        "time": 47598
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance42",
+        "time": 47606
+    },
+    {
+        "duration": 49,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance42",
+        "time": 47615
+    },
+    {
+        "duration": 8832,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance40",
+        "time": 47678
+    },
+    {
+        "duration": 179,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance40",
+        "time": 47679
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance40",
+        "time": 47860
+    },
+    {
+        "duration": 24,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance40",
+        "time": 47865
+    },
+    {
+        "duration": 10,
+        "text": "Avila denied that any GAStech employee has been abducted. ",
+        "interactionType": "Highlight",
+        "id": "disappearance40",
+        "time": 47964
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance40",
+        "time": 47965
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 47966
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 47967
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 47970
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance40",
+        "time": 47971
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance40,disappearance67",
+        "time": 47982
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 47984
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance40",
+        "time": 48007
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Connection",
+        "id": "disappearance67,disappearance16",
+        "time": 48011
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance40",
+        "time": 48026
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 48040
+    },
+    {
+        "duration": 60,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 48040
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 48106
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance18",
+        "time": 48121
+    },
+    {
+        "duration": 49,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance18",
+        "time": 48128
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance95",
+        "time": 48190
+    },
+    {
+        "duration": 42,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance95",
+        "time": 48200
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance117",
+        "time": 48247
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance117",
+        "time": 48254
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance25",
+        "time": 48274
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance139",
+        "time": 48279
+    },
+    {
+        "duration": 67,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance139",
+        "time": 48286
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance91",
+        "time": 48366
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance47",
+        "time": 48386
+    },
+    {
+        "duration": 8110,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance113",
+        "time": 48400
+    },
+    {
+        "duration": 27,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 48401
+    },
+    {
+        "duration": 330,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance112",
+        "time": 48441
+    },
+    {
+        "duration": 95,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance112",
+        "time": 48442
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance24",
+        "time": 48537
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance111",
+        "time": 48543
+    },
+    {
+        "duration": 103,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance111",
+        "time": 48556
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance17",
+        "time": 48797
+    },
+    {
+        "duration": 7699,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance131",
+        "time": 48811
+    },
+    {
+        "duration": 24,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 48812
+    },
+    {
+        "duration": 7668,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance107",
+        "time": 48842
+    },
+    {
+        "duration": 53,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 48843
+    },
+    {
+        "duration": 7606,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance32",
+        "time": 48904
+    },
+    {
+        "duration": 56,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 48905
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance32",
+        "time": 48959
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 48976
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 48977
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 48977
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance33",
+        "time": 48982
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance6",
+        "time": 48989
+    },
+    {
+        "duration": 20,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance6",
+        "time": 48998
+    },
+    {
+        "duration": 532,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance31",
+        "time": 49027
+    },
+    {
+        "duration": 10,
+        "text": "Sometimes between 10 or 10:50 after a major deal with Gastech went public which caused the executive very very rich. two jets took off. There still conflicting notes about Ransom",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 49181
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 49571
+    },
+    {
+        "duration": 10,
+        "text": "Ransom",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 49618
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance25",
+        "time": 49639
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 49661
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 49662
+    },
+    {
+        "duration": 753,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 49662
+    },
+    {
+        "duration": 10,
+        "text": "It does say here that they took them and put out the day afterwards at noon",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 50231
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 50415
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 50415
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 50416
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 50416
+    },
+    {
+        "duration": 10,
+        "text": "21 gen",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 50492
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance147",
+        "time": 50515
+    },
+    {
+        "duration": 119,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance147",
+        "time": 50524
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance144",
+        "time": 50675
+    },
+    {
+        "duration": 19,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance142",
+        "time": 50717
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 50736
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance64",
+        "time": 50741
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 50756
+    },
+    {
+        "duration": 10,
+        "text": "Right now it looks more like that executives of Gastech more or less took their money and moved somewhere else. At the day they kidnaped there are several planes leaving",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 50861
+    },
+    {
+        "duration": 10,
+        "text": "It seems the POK gaining more violent as time goes on. Everything points that they did the kidnaping but the Ransom note says it was untill noon of following day. but it's just a blog post and doesn't necessarily true",
+        "interactionType": "Add note",
+        "id": 0,
+        "time": 51441
+    },
+    {
+        "duration": 419,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 51533
+    },
+    {
+        "duration": 10,
+        "text": "Police says there's no ransom made",
+        "interactionType": "Think_aloud",
+        "id": 0,
+        "time": 51741
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 51952
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 51952
+    },
+    {
+        "duration": 10,
+        "text": "airplane",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 51996
+    },
+    {
+        "duration": 10,
+        "text": "22 Jan",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 52032
+    },
+    {
+        "duration": 10,
+        "text": "2014",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 52068
+    },
+    {
+        "duration": 10,
+        "text": "22 Jan",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 52155
+    },
+    {
+        "duration": 10,
+        "text": "23",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 52193
+    },
+    {
+        "duration": 19,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 52216
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 52235
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 52236
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance44",
+        "time": 52261
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance94",
+        "time": 52289
+    },
+    {
+        "duration": 74,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance33",
+        "time": 52453
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance44",
+        "time": 52534
+    },
+    {
+        "duration": 32,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance18",
+        "time": 52568
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 52857
+    },
+    {
+        "duration": 10,
+        "text": "Italy",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 52887
+    },
+    {
+        "duration": 79,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 52932
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance32",
+        "time": 53004
+    },
+    {
+        "duration": 164,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 53024
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 53188
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 53188
+    },
+    {
+        "duration": 10,
+        "text": "One jet went to Rome, Italy",
+        "interactionType": "Add note",
+        "id": 0,
+        "time": 53231
+    },
+    {
+        "duration": 10,
+        "text": "Employees were evacuated, but 14 were not accounted for ",
+        "interactionType": "Add note",
+        "id": 0,
+        "time": 53361
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 53893
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 53894
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance30",
+        "time": 53898
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance28",
+        "time": 53910
+    },
+    {
+        "duration": 20,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance77",
+        "time": 53922
+    },
+    {
+        "duration": 77,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance77",
+        "time": 53943
+    },
+    {
+        "duration": 13,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance151",
+        "time": 54024
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance151",
+        "time": 54038
+    },
+    {
+        "duration": 21,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance149",
+        "time": 54067
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 54102
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 54161
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 54161
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance60",
+        "time": 54172
+    },
+    {
+        "duration": 12,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance37",
+        "time": 54182
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance37",
+        "time": 54195
+    },
+    {
+        "duration": 2287,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance30",
+        "time": 54223
+    },
+    {
+        "duration": 201,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 54224
+    },
+    {
+        "duration": 2070,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance51",
+        "time": 54440
+    },
+    {
+        "duration": 162,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance51",
+        "time": 54441
+    },
+    {
+        "duration": 19,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance128",
+        "time": 54615
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance103",
+        "time": 54638
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance78",
+        "time": 54644
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance1",
+        "time": 54662
+    },
+    {
+        "duration": 82,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance1",
+        "time": 54672
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 54756
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance42",
+        "time": 54758
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 54767
+    },
+    {
+        "duration": 47,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance11",
+        "time": 54777
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance10",
+        "time": 54831
+    },
+    {
+        "duration": 1672,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance10",
+        "time": 54838
+    },
+    {
+        "duration": 55,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 54839
+    },
+    {
+        "duration": 10,
+        "text": "Gerhard",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 54914
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 54916
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 54925
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 54925
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance51",
+        "time": 54925
+    },
+    {
+        "duration": 20,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance90",
+        "time": 54926
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance90",
+        "time": 54947
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance51",
+        "time": 54958
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 54959
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 54959
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 54959
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 54961
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 54976
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance44",
+        "time": 54982
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 54989
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 54989
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 54990
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 54990
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 54991
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 55003
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 55014
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 55015
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance40",
+        "time": 55015
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 55019
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 55020
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 55020
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 55023
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance51",
+        "time": 55024
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 55026
+    },
+    {
+        "duration": 11,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 55026
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 55051
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 55065
+    },
+    {
+        "duration": 10,
+        "text": "Gerhard",
+        "interactionType": "Search",
+        "id": 0,
+        "time": 55090
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 55092
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance107",
+        "time": 55096
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance51",
+        "time": 55096
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 55096
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 55096
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 55097
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 55099
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 55099
+    },
+    {
+        "duration": 60,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance136",
+        "time": 55100
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 55160
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 55229
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance65",
+        "time": 55234
+    },
+    {
+        "duration": 8,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance66",
+        "time": 55241
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance42",
+        "time": 55249
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance42",
+        "time": 55263
+    },
+    {
+        "duration": 28,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance42",
+        "time": 55270
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance95",
+        "time": 55318
+    },
+    {
+        "duration": 20,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance95",
+        "time": 55329
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 55355
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance124",
+        "time": 55359
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance113",
+        "time": 55446
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance13",
+        "time": 55502
+    },
+    {
+        "duration": 19,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance13",
+        "time": 55512
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance30",
+        "time": 55543
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance10",
+        "time": 55544
+    },
+    {
+        "duration": 15,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance79",
+        "time": 55547
+    },
+    {
+        "duration": 82,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance79",
+        "time": 55564
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance80",
+        "time": 55651
+    },
+    {
+        "duration": 24,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance78",
+        "time": 55665
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance103",
+        "time": 55725
+    },
+    {
+        "duration": 64,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance103",
+        "time": 55743
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance128",
+        "time": 55811
+    },
+    {
+        "duration": 7,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance105",
+        "time": 55817
+    },
+    {
+        "duration": 16,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance106",
+        "time": 55824
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance151",
+        "time": 55845
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance151",
+        "time": 55852
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 55866
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance19",
+        "time": 55880
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 55882
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 55893
+    },
+    {
+        "duration": 6,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 55898
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 55911
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 55912
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 55912
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 55913
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 55914
+    },
+    {
+        "duration": 18,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 55915
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 55933
+    },
+    {
+        "duration": 17,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance32",
+        "time": 55937
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 55954
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance59",
+        "time": 55954
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 55954
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance67",
+        "time": 55956
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 56131
+    },
+    {
+        "duration": 9,
+        "text": "",
+        "interactionType": "Draging",
+        "id": "disappearance57",
+        "time": 56141
+    },
+    {
+        "duration": 69,
+        "text": "",
+        "interactionType": "Doc_open",
+        "id": "disappearance7",
+        "time": 56220
+    },
+    {
+        "duration": 10,
+        "text": "",
+        "interactionType": "Mouse_hover",
+        "id": "disappearance73",
+        "time": 56303
+    },
+    {
+        "duration": 23,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance109",
+        "time": 56317
+    },
+    {
+        "duration": 148,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance93",
+        "time": 56340
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance82",
+        "time": 56488
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance51",
+        "time": 56496
+    },
+    {
+        "duration": 5,
+        "text": "",
+        "interactionType": "Reading",
+        "id": "disappearance131",
+        "time": 56496
+    }
+]
