@@ -9,7 +9,7 @@ The team will use this repository to share code, the dataset, and more.
 ## Project Goal
 
 We are building and testing the possibility of generating natural language summaries from interaction histories.
-Weather this is generated from a corpus of sentences for every event and summarized or other intermediary steps, we want to understand:
+Wether this is generated from a corpus of sentences for every event and summarized or other intermediary steps, we want to understand:
 
 1. feasibility of generating sentences from interaction histories
 2. Comparison of features between human generated summaries of interaction histories and the automated approach
