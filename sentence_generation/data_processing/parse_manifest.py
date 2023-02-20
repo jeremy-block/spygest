@@ -1,18 +1,15 @@
 import json
 
-def parse(manifest_path):
-    with open(manifest_path, "r") as read_file:
-        data = json.load(read_file) 
-    # print(type(data))
-    # print(len(data.keys()))
-    # print(data.keys())
-    for k,v in data.items():
-        print(k)
-    print(len(data["segments"]))
-    print(len(data["interactionLogs"]))
-    print(len(data["superlatives"]))
-
-    print(data["interactionLogs"])
-        # for kk, vv in v.items():
-        #     print(kk)
-    # print(data)
+class Parser:
+    def __init__(self, path):
+        with open(path, "r") as read_file:
+            self.data = json.load(read_file) 
+        
+    def get＿manifest_superlatives_user(self, dataset_id, uid):
+        return self.data["superlatives"][dataset_id][uid]
+    
+    def get_logs_from_idx(self, log_idx):
+        return self.data[log_idx]
+    
+    def get_entities_from_idx(self, doc_idx):
+        return self.data[doc_idx]
