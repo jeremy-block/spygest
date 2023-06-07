@@ -1,4 +1,43 @@
+[user]
+theme_id = "armsdealing"
+limited_types_ui = ['Draging', 'Mouse_hover']
+limited_types_think = ['Add note', 'Think_aloud', "Create Note", 'Topic_change', 'Highlight', 'Search']
+limited_types_doc = ['Doc_open', 'Connection', 'Reading']
+num_skipped_seg = 1
+docs_path = "../data/Dataset_1/Documents/Documents_Dataset_1_preprocessed.json"
+title_interaction = ['Draging', 'Mouse_hover', 'Doc_open']
+num_segments = 10
+
+[prompt]
+theme = "arms dealing" # 1: arms dealing 2: terrorist activity 3: disappearance
+final = "false"
+with_memory= "true"
+
+[prompt.system]
+role = "an intelligence analyst"
+long_length = "100 words"
+
+[prompt.assistant]
+
+[prompt.user]
+role = "an intelligence analyst"
+final_length = "500 words"
+
 [document]
+theme = "arms dealing" # 1: arms dealing 2: terrorist activity 3: disappearance
+num_parts = 8 # 1: 8 2: 11 3:
 
 [document.summary]
+role = "an intelligence analyst"
+short_length = "20 words"
+long_length = "100 words"
 
+[document.topics]
+role = "an intelligence analyst"
+num_topics = 5
+len_topic = 2
+
+[document.entities]
+role = "an intelligence analyst"
+num_entities = 4
+entities = "person, organization, location, and miscellaneous" # CoNLL-2003, [dates]

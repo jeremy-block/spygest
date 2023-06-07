@@ -1,24 +1,14 @@
 # write a parser for parsing superlatives from a manifest file given the file path, the manifest file is a json file, and save the results to a User class
-from user import User
 import json
 import openai
 import tiktoken
+import difflib
+import os
+from dotenv import load_dotenv
+import evaluate
 
-openai.api_key = "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"
-
-def parse_manifest_file(manifest_file_path):
-    with open(manifest_file_path, 'r') as f:
-        manifest = json.load(f)
-    
-    print(manifest["superlatives"][0][0].keys())
-    # print(type(manifest["superlatives"][0][0]))
-    users = []
-    # for user in manifest:
-    #     user_obj = User(user['name'], user['superlatives'])
-    #     print(user_obj)
-    #     user_obj.save_to_db()
-
-    return users
+load_dotenv(dotenv_path=".env/api_key.py")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
@@ -58,5 +48,28 @@ def num_tokens_from_messages(messages, model="gpt-3.5-turbo-0301"):
         raise NotImplementedError(f"""num_tokens_from_messages() is not presently implemented for model {model}.
     See https://github.com/openai/openai-python/blob/main/chatml.md for information on how messages are converted to tokens.""")
 
-if __name__ == '__main__':
-    parse_manifest_file("../original_web_interface/ApplicationManifest.json")
+def load_json_to_dict(file_path):
+    with open(file_path, "r") as f:
+        res = json.load(f)
+    return res
+
+def highlight_differences(text1, text2):
+    diff = difflib.ndiff(text1.split(), text2.split())
+    differences = [part for part in diff if part.startswith('-') or part.startswith('+')]
+    highlighted_text = []
+    for difference in differences:
+        # if difference.startswith('-'):
+        #     highlighted_text.append(f"[-{difference[1:]}-]")  # Enclose removed parts in square brackets
+        # elif difference.startswith('+'):
+        #     highlighted_text.append(f"[+{difference[1:]}+]")  # Enclose added parts in square brackets
+        if difference.startswith('-'):
+            highlighted_text.append(f"\033[91m{difference}\033[0m")  # Highlight removed parts in red
+        elif difference.startswith('+'):
+            highlighted_text.append(f"\033[92m{difference}\033[0m")  # Highlight added parts in green
+    return ' '.join(highlighted_text)
+
+def run_evaluate(predictions, references):
+    rouge = evaluate.load('rouge')
+    results = rouge.compute(predictions=predictions, references=references)
+    print(results)
+    return results

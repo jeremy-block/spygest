@@ -1,48 +1,44 @@
 import json
 import toml
+import utils
+
+config = toml.load("config.toml")
+doc_config = config["document"]
+armsdealing78_entities = '{"person": ["crew","officers"],"organization": ["Bangkok Post","Thai authorities","police","customs","immigration","air force","Ebina House"],"location": ["Bangkok","North Korea","Don Mueang airport"],"miscellaneous": ["Russian cargo plane"]}'
 
 class Document:
     def __init__(self, doc):
         self.id = doc["id"]
+        self.date = doc["date"]
         self.title = doc["title"]
         self.contents = doc["contents"]
-        self.story = None
-
-    def get_story(self):
-        self.story = f"""Title: {self.title}\nContents: {self.contents}
-        """
-        print(self.story)
 
     def summarize(self):
-        prompt = f"""Act as a intelligence analyst, your task is to generate a short summary of classified documents. Summarize the document delimited by triple backticks in at most 3 sentences. Review: ```{self.story}```"""
-        print(prompt)
-        
+        story = f"""Title: {self.title}\nContents: {self.contents}"""
+        summ_config = doc_config["summary"]
+        # prompt = f"""Act as {summ_config["role"]}, your task is to generate a short summary of classified documents about {doc_config["theme"]}. Summarize the document delimited by triple backticks in at most {summ_config["long_length"]}. Document:\n ```{story}```"""
+        prompt = f"""Act as {summ_config["role"]}, your task is to generate a short summary of classified documents. Summarize the document delimited by triple backticks in at most {summ_config["long_length"]}. Document:\n ```{story}```"""
+        self.summary = utils.get_completion(prompt)
+        print(self.summary)
 
-    def topics(self):
-        number_of_topics = 5
-        length_of_topic = 2
-        prompt = f"""
-        Determine {number_of_topics} topics that are being discussed in the following text, which is delimited by triple backticks.
-        
-        Make each item one to {length_of_topic} words long. 
+    def get_topics(self):
+        story = f"""Title: {self.title}\nContents: {self.contents}"""
+        topics_config = doc_config["topics"]
+        # prompt = f"""Act as {topics_config["role"]}, your task is to determine topics that are being discussed in classified documents about {doc_config["theme"]}. Determine up to {topics_config["num_topics"]} topics in the document delimited by triple backticks. Make each item one to {topics_config["len_topic"]} words long. Format your response as "a list of items separated by commas". Document:\n ```{story}```"""
+        prompt = f"""Act as {topics_config["role"]}, your task is to determine topics that are being discussed in classified documents. Determine up to {topics_config["num_topics"]} topics in the document delimited by triple backticks. Make each item one to {topics_config["len_topic"]} words long. Format your response as "a list of items separated by commas". Document:\n ```{story}```"""
+        self.topics = utils.get_completion(prompt)
+        print(self.topics)
 
-        Format your response as a list of items separated by commas.
-
-        Text sample: '''{self.story}'''
-        """
-        pass
-
-    def entities(self):
-        pass
-
-    def save_to_new_doc(self, path):
-        pass
-
-if __name__ == "__main__":
-    doc_path = "../data/Dataset_1/Documents/Documents_Dataset_1.json"
-    with open(doc_path, 'r') as f:
-        docs = json.load(f)
-    for doc in docs[:1]:
-        d = Document(doc)
-        d.get_story()
-        d.summarize()
+    def get_entities(self):
+        story = f"""Title: {self.title}\nContents: {self.contents}"""
+        ent_config = doc_config["entities"]
+        # prompt = f"""Act as {ent_config["role"]}, your task is to identify named entities in classified documents about {doc_config["theme"]}. There are {ent_config["num_entities"]} entities, which are {ent_config["entities"]}. Identify the entities in the document delimited by triple backticks. Format your response in a JSON format. Document:\n ```{story}```"""
+        prompt = f"""Act as {ent_config["role"]}, your task is to identify named entities in classified documents. There are {ent_config["num_entities"]} entities, which are {ent_config["entities"]}. Identify the entities in the document delimited by triple backticks. Format your response in a JSON format. Document:\n ```{story}```"""
+        json_res = utils.get_completion(prompt)
+        # self.entities = json.loads(json_res)
+        if self.id == "armsdealing78":
+            self.entities = json.loads(armsdealing78_entities)
+        else:
+            self.entities = json.loads(json_res)
+        # self.entities = json.loads(utils.get_completion(prompt))
+        print(self.entities)
