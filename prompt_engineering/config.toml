@@ -3,7 +3,7 @@ theme_id = "armsdealing"
 limited_types_ui = ['Draging', 'Mouse_hover']
 limited_types_think = ['Add note', 'Think_aloud', "Create Note", 'Topic_change', 'Highlight', 'Search']
 limited_types_doc = ['Doc_open', 'Connection', 'Reading']
-num_skipped_seg = 1
+num_skipped_seg = 0
 docs_path = "../data/Dataset_1/Documents/Documents_Dataset_1_preprocessed.json"
 title_interaction = ['Draging', 'Mouse_hover', 'Doc_open']
 num_segments = 10
@@ -12,6 +12,27 @@ num_segments = 10
 theme = "arms dealing" # 1: arms dealing 2: terrorist activity 3: disappearance
 final = "false"
 with_memory= "true"
+
+[prompt.adjectives]
+
+none=""
+self="\n\nPlease focus on these core features delimited by triple backticks when you summarize: ```relevance, proper citation, objectivity, engaging, conciseness, coherence, clarity, accuracy.```"
+manager="\n\nPlease focus on these core features delimited by triple backticks when you summarize: ```objectivity, relevance, conciseness, clarity.```"
+peer="\n\nPlease focus on these core features delimited by triple backticks when you summarize: ```engaging, accuracy.```"
+
+[prompt.examples]
+
+none=""
+masked_manual_example="\n\nPlease provide the overall summary in a similar way to the example delimited by triple backticks.\n\nExample: ```This session began by searching for [KEYWORD] and looking at the documents returned. They noted that [KEYWORD] and [KEYWORD] emailed and then transitioned to searches about [KEYWORD] and [KEYWORD]. At this time, they were reviewing people like [PERSON] and [PERSON]. By the end of the session, they had transitioned to exploring documents from [KEYWORD] and [KEYWORD]. They searched for [[KEYWORD], [[KEYWORD] and [KEYWORD]. In the end, they returned to some of the same documents they had opened at the beginning but also opened many different documents for the first time. Out of the [NUMBER] topics and [NUMBER] documents, they reviewed [NUMBER] topics, opened [NUMBER]% of the total documents at least once, and spent an average of [NUMBER] seconds with each document. The people they returned to most frequently were [PERSON], [PERSON], and [PERSON].```"
+manual_example="\n\nPlease provide the overall summary in a similar way to the example delimited by triple backticks.\n\nExample: ```This session began by searching for the word \"Nigeria\" and looking at the documents returned. They noted that Dr. George and Mikhail emailed and then transitioned to searches about \"Kenya\" and the Middle East. At this time, they were reviewing people like Leonid Minsky and Anna Nicole Smith. By the end of the session, they had transitioned to exploring documents from Russia and middle eastern countries. They searched for \"death,\" \"kasem\" and \"dubai.\" In the end, they returned to some of the same documents they had opened at the beginning but also opened many different documents for the first time. Out of the 46 topics and 102 documents, they reviewed 39 topics, opened 45% of the total documents at least once, and spent an average of 30 seconds with each document. The people they returned to most frequently were Leonid Minsky, Mikhail Dombrovski, and Dr. George.```"
+masked_template="\n\nPlease provide the overall summary using the template delimited by triple backticks.\n\nTemplate: ```They focused on [NUMBER] main topics in this analysis session, exploring [NUMBER]% of the documents. The topics that received the most attention were [TOPICS]. They started searching for [KEYWORD], before transitioning to [KEYWORD] and finally looking for [KEYWORD]. They conducted NUMBER searches throughout their session.```"
+
+[prompt.audience]
+
+none=""
+self="\n\nPlease avoid being too vague and overly detailed."
+manager="\n\nYour audience will be a manager who expects to see summaries with a high information density in each sentence and still provide context for the investigation without offering too many details to invite the manager to do the task themselves. More specifically, you should follow a list of the instructions delimited by triple backticks.\n\nInstructions: ```1. Should not focus on the specific statistics but focus on the general behaviors. 2. Please provide a sense of how much work was completed. 3. Please use more descriptive language. 4. Please avoid being too vague and overly detailed.```"
+peer="\n\nYour audience will be a peer who are more comfortable working with team members’ uncertainty and hedged statements. More specifically, you should follow a list of the instructions delimited by triple backticks.\n\nInstructions: ```1. Provide the context of the analysis by offering starting points and providing more details later. 2. Being entirely objective is less important for peer collaboration than being accurate or relevant to their peers. 3. Including the opinions of the author in their summary can provide contextual data (e.g., hedge statements or other personal theories) about the state of the investigation. 4. Please avoid being too vague and overly detailed.```"
 
 [prompt.system]
 role = "an intelligence analyst"

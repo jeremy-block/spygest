@@ -10,6 +10,9 @@ config = toml.load("config.toml")
 prompt_config = config["prompt"]
 system_config = prompt_config["system"] 
 user_config = prompt_config["user"]
+adjectives_config = prompt_config["adjectives"]
+examples_config = prompt_config["examples"]
+audience_config = prompt_config["audience"]
 
 def collect_messages(context=None, system_prompt=None, assistant_prompt=None, user_prompt=None):
     """
@@ -59,9 +62,12 @@ def get_system_message(user, manual_sum=None):
     # prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Your audience will be a manager who expects the summarization to be short (i.e., concise). The tone should be formal and assertive."""
     # [core features] prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Please focus on these core features delimited by triple backticks when you summarize: ```relevance, proper citation, objectivity, engaging, conciseness, coherence, clarity, accuracy.```"""
     # [manager] prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Your audience will be a manager who expects the summarization to be relevant, concise, clear, and objective. More specifically, you should follow a list of the instructions delimited by triple backticks: ```1. The tone should be formal and assertive. 2. Please use more descriptive language. 3. Do not focus on the specific statistics but focus on the general behaviors. 4. Please provide a sense of how much work was completed. 5. Please avoid being too vague and overly detailed.```"""
-    prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Your audience will be a peer who expects the summarization to be relevant and accurate. The summarization could be less objective. They are more comfortable working with team members’ uncertainty and hedged statements. More specifically, you should follow a list of the instructions delimited by triple backticks: ```1. The tone should be conversational and suggestive. 2. Could be more subjective. 3. Focus more on the specific statistics. 4. Does not need to be concise. 5. Please avoid being too vague and overly detailed.```"""
+    # [peer] prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Your audience will be a peer who expects the summarization to be relevant and accurate. The summarization could be less objective. They are more comfortable working with team members’ uncertainty and hedged statements. More specifically, you should follow a list of the instructions delimited by triple backticks: ```1. The tone should be conversational and suggestive. 2. Could be more subjective. 3. Focus more on the specific statistics. 4. Does not need to be concise. 5. Please avoid being too vague and overly detailed.```"""
+    # prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Please focus on these core features delimited by triple backticks when you summarize: ```relevance, proper citation, objectivity, engaging, conciseness, coherence, clarity, accuracy.```"""
+    prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario."""
+    prompt += adjectives_config["none"]
     # prompt_audience = prompt + " " + "Your audience will be a manager who expects the summarization to be short (i.e., concise). The tone should be formal and assertive."
-    # print(prompt)
+    print(prompt)
     # print(prompt_audience)
     return {"role": "system", "content": prompt}
     # return {"role": "system", "content": prompt_audience}
@@ -98,7 +104,11 @@ def get_user_message_final(user, summaries: str, manual_sum=None):
     # [sys manager] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments."""
     # [manager final user] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments. Your audience will be a manager who expects the summarization to be relevant, concise, clear, and objective. More specifically, you should follow a list of the instructions delimited by triple backticks: ```1. The tone should be formal and assertive. 2. Please use more descriptive language. 3. Do not focus on the specific statistics but focus on the general behaviors. 4. Please provide a sense of how much work was completed. 5. Please avoid being too vague and overly detailed.```"""
     # [manager final user with masked template] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}. Please provide the overall summary using the template delimited by triple backticks. Template: ```They focused on [NUMBER] main topics in this analysis session, exploring [PERCENTAGE] of the documents. The topics that received the most attention were [TOPICS]. They started searching for [KEYWORD1], before transitioning to [KEYWORD2] and finally looking for [KEYWORD3]. They conducted NUMBER searches throughout their session. [CONCLUSION].``` Your audience will be a manager who expects the summarization to be relevant, concise, clear, and objective. More specifically, you should follow a list of the instructions delimited by triple backticks: ```1. The tone should be formal and assertive. 2. Please use more descriptive language. 3. Do not focus on the specific statistics but focus on the general behaviors. 4. Please provide a sense of how much work was completed. 5. Please avoid being too vague and overly detailed.```"""
+    # [none with summaries] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments delimited by triple backticks in at most {user_config["final_length"]}. Summaries: ```{summaries}```"""
+    # [none] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
     prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
+    prompt += audience_config["none"] + examples_config["masked_manual_example"]
+    print(prompt)
     # Thought: provide steps (CoT) for the model to follow
     # Thought: we do have three examples, maybe we can try few-shot prompting
     return {"role": "user", "content": prompt}
@@ -151,8 +161,12 @@ def test_user(user):
     # print(user.interaction_logs)
     print(f"Divide the interaction logs into {len(user.interaction_logs)} segments")
     print(f"Interaction types: {user.interaction_types}")
+    get_user_message_final(user=user, summaries="")
+    get_system_message(user=user)
 
 if __name__ == "__main__":
+    # print([utils.load_json_to_dict("./none/snapshot_final_assistant.json")[-1]["content"]])
+    # print([utils.load_json_to_dict("./none_summaries/snapshot_final_assistant.json")[-1]["content"]])
     user = User('../data/Dataset_1/User Interactions/Arms_P1_InteractionsLogs.json', '../original_web_interface/ApplicationManifest.json', 1, 1)
     # test_user(user)
     user.parse_manifest()
@@ -230,8 +244,12 @@ if __name__ == "__main__":
         assistant_msg = {"role": "assistant", "content": overall_summary}
         collect_messages(context=context, assistant_prompt=assistant_msg, user_prompt=None)
         save_snapshots(context, folder_name=folder_name, filename=f"snapshot_final_assistant")
-        scores = utils.run_evaluate([utils.load_json_to_dict("./baseline_focus_summaries/snapshot_final_assistant.json")[-1]["content"]], [overall_summary])
-        context.append(scores)
+        scores_manual = utils.run_evaluate([utils.load_json_to_dict("../dataset1_doc_manual.json")["manualSummaries"][0]["summary"]], [overall_summary])
+        scores_baseline = utils.run_evaluate([utils.load_json_to_dict("./none/snapshot_final_assistant.json")[-1]["content"]], [overall_summary])
+        scores_baseline_summaries = utils.run_evaluate([utils.load_json_to_dict("./none_summaries/snapshot_final_assistant.json")[-1]["content"]], [overall_summary])
+        context.append(scores_manual)
+        context.append(scores_baseline)
+        context.append(scores_baseline_summaries)
         save_snapshots(context, folder_name=folder_name, filename=f"snapshot_final_assistant_with_scores")
     else:
         print("Accumulated too many tokens!")
