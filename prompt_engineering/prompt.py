@@ -108,7 +108,7 @@ def get_user_message_final(user, summaries: str, manual_sum=None):
     # [none] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
     prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
     # prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments delimited by triple backticks in at most {user_config["final_length"]}. Summaries: ```{summaries}```"""
-    prompt += audience_config["none"] + examples_config["masked_manual_example"]
+    prompt += audience_config["none"] + examples_config["masked_template"]
     print(prompt)
     # Thought: provide steps (CoT) for the model to follow
     # Thought: we do have three examples, maybe we can try few-shot prompting
