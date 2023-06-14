@@ -65,7 +65,7 @@ def get_system_message(user, manual_sum=None):
     # [peer] prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Your audience will be a peer who expects the summarization to be relevant and accurate. The summarization could be less objective. They are more comfortable working with team members’ uncertainty and hedged statements. More specifically, you should follow a list of the instructions delimited by triple backticks: ```1. The tone should be conversational and suggestive. 2. Could be more subjective. 3. Focus more on the specific statistics. 4. Does not need to be concise. 5. Please avoid being too vague and overly detailed.```"""
     # prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario. Please focus on these core features delimited by triple backticks when you summarize: ```relevance, proper citation, objectivity, engaging, conciseness, coherence, clarity, accuracy.```"""
     prompt = f"""Act as {system_config["role"]}, your task is to generate a summary of the interaction logs of a user who was trying to investigate an event in the intelligence domain. The logs are written in sentences. The entire interaction is divided into {user.num_segments} segments. You will be summarizing the entire interaction session step by step by summarizing one segment at a time. When you are summarizing a segment, make sure you take into account summaries of previous segments. Please summarize a segment in at most {system_config["long_length"]}. The goal is to communicate findings and progress in a collaborative investigation scenario."""
-    prompt += adjectives_config["none"]
+    prompt += adjectives_config["peer"]
     # prompt_audience = prompt + " " + "Your audience will be a manager who expects the summarization to be short (i.e., concise). The tone should be formal and assertive."
     print(prompt)
     # print(prompt_audience)
@@ -108,7 +108,7 @@ def get_user_message_final(user, summaries: str, manual_sum=None):
     # [none] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
     prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
     # prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments delimited by triple backticks in at most {user_config["final_length"]}. Summaries: ```{summaries}```"""
-    prompt += audience_config["none"] + examples_config["masked_template"]
+    prompt += audience_config["peer"] + examples_config["none"] # masked_template
     print(prompt)
     # Thought: provide steps (CoT) for the model to follow
     # Thought: we do have three examples, maybe we can try few-shot prompting
@@ -168,7 +168,7 @@ def test_user(user):
 if __name__ == "__main__":
     # print([utils.load_json_to_dict("./none/snapshot_final_assistant.json")[-1]["content"]])
     # print([utils.load_json_to_dict("./none_summaries/snapshot_final_assistant.json")[-1]["content"]])
-    user = User('../data/Dataset_1/User Interactions/Arms_P2_InteractionsLogs.json', '../original_web_interface/ApplicationManifest.json', dataset_id=1, user_id=2) # change participant
+    user = User('../data/Dataset_1/User Interactions/Arms_P1_InteractionsLogs.json', '../original_web_interface/ApplicationManifest.json', dataset_id=1, user_id=1) # change participant
     # test_user(user)
     user.parse_manifest()
     # [2023-06-05_12-57-00] skipped one segment: user.parse_logs(skipped=True)
@@ -248,9 +248,9 @@ if __name__ == "__main__":
         
         for metric_type in prompt_config["metrics"]:
             print(f"running metric: {metric_type}")
-            scores_manual = utils.run_evaluate([utils.load_json_to_dict("../dataset1_doc_manual.json")["manualSummaries"][1]["summary"]], [overall_summary], metric_type) # change participant
-            scores_baseline = utils.run_evaluate([utils.load_json_to_dict("./p2/none_none/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
-            scores_baseline_summaries = utils.run_evaluate([utils.load_json_to_dict("./p2/none_summaries/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
+            scores_manual = utils.run_evaluate([utils.load_json_to_dict("../dataset1_doc_manual.json")["manualSummaries"][0]["summary"]], [overall_summary], metric_type) # change participant
+            scores_baseline = utils.run_evaluate([utils.load_json_to_dict("./p1_250/none_none/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
+            scores_baseline_summaries = utils.run_evaluate([utils.load_json_to_dict("./p1_250/none_summaries/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
             context.append(scores_manual)
             context.append(scores_baseline)
             context.append(scores_baseline_summaries)
