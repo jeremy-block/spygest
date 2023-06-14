@@ -6,6 +6,10 @@ import difflib
 import os
 from dotenv import load_dotenv
 import evaluate
+from datasets import load_metric
+# import load
+# import tensorflow as tf
+# print(tf.__version__)
 
 load_dotenv(dotenv_path=".env/api_key.py")
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -68,8 +72,22 @@ def highlight_differences(text1, text2):
             highlighted_text.append(f"\033[92m{difference}\033[0m")  # Highlight added parts in green
     return ' '.join(highlighted_text)
 
-def run_evaluate(predictions, references):
-    rouge = evaluate.load('rouge')
-    results = rouge.compute(predictions=predictions, references=references)
+def run_evaluate(predictions, references, metrics):
+    results = None
+    if metrics == "rouge":
+        rouge = evaluate.load('rouge')
+        results = rouge.compute(predictions=predictions, references=references)
+    elif metrics == "bleu":
+        bleu = evaluate.load('bleu')
+        results = bleu.compute(predictions=predictions, references=references)
+    elif metrics == "bleurt":
+        # bleurt = evaluate.load("bleurt")
+        bleurt = load_metric('bleurt', 'bleurt-large-512')
+        results = bleurt.compute(predictions=predictions, references=references)
+    elif metrics == "ter":
+        ter = evaluate.load('ter')
+        results = ter.compute(predictions=predictions, references=references)
+    else:
+        raise NotImplementedError(f"The metric {metrics} is not implemented.")
     print(results)
     return results

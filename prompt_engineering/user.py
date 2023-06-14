@@ -60,6 +60,8 @@ class User:
 
     def get_segments_with_doc(self, has_sum=False, has_topics=False, has_entities=False):
         segment_length = self.num_logs // self.num_segments
+        print(self.num_logs)
+        print(segment_length)
         for i in range(self.num_segments):
             segment_logs = ["The user"]
             start = i*segment_length
@@ -100,6 +102,8 @@ class User:
                 #     doc_id = self.get_doc_id(j)
                 #     interaction_log += f', with the title: {self.docs[doc_id]["title"]},'
                 #     # print(interaction_log)
+                elif self.raw_logs[j]["interactionType"] == "Think_aloud":
+                    continue
                 else:
                     interaction_log += ","
                 # segment_logs.append(self.raw_logs[j]["summary"]+",")
