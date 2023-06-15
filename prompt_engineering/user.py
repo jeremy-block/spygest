@@ -73,7 +73,8 @@ class User:
                 # print(f"adding log {j} to segment {i+1}")
                 # segment_logs.append(" ".join(["The user", self.raw_logs[j]["summary"]+"."]))
                 interaction_log = self.raw_logs[j]["summary"]
-                if self.raw_logs[j]["interactionType"] == "Reading" and self.raw_logs[j]["duration"] > 50:
+                # if self.raw_logs[j]["interactionType"] == "Reading" and self.raw_logs[j]["duration"] > 50:
+                if self.raw_logs[j]["interactionType"] == "Reading" and self.raw_logs[j]["duration"] > 150:
                     doc_id = self.get_doc_id(j)
                     if has_sum:
                         interaction_log += ", with the content: " + self.docs[doc_id]["summary"]

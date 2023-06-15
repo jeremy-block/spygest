@@ -108,7 +108,7 @@ def get_user_message_final(user, summaries: str, manual_sum=None):
     # [none] prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
     prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments in at most {user_config["final_length"]}."""
     # prompt = f"""Please provide a comprehensive summary of the entire interaction based on the summaries of {user.num_segments} segments delimited by triple backticks in at most {user_config["final_length"]}. Summaries: ```{summaries}```"""
-    prompt += audience_config["none"] + examples_config["masked_template"]
+    prompt += audience_config["none"] + examples_config["masked_template"] # masked_template, masked_manual_example
     print(prompt)
     # Thought: provide steps (CoT) for the model to follow
     # Thought: we do have three examples, maybe we can try few-shot prompting
@@ -168,7 +168,7 @@ def test_user(user):
 if __name__ == "__main__":
     # print([utils.load_json_to_dict("./none/snapshot_final_assistant.json")[-1]["content"]])
     # print([utils.load_json_to_dict("./none_summaries/snapshot_final_assistant.json")[-1]["content"]])
-    user = User('../data/Dataset_1/User Interactions/Arms_P2_InteractionsLogs.json', '../original_web_interface/ApplicationManifest.json', dataset_id=1, user_id=2) # change participant
+    user = User('../data/Dataset_1/User Interactions/Arms_P3_InteractionsLogs.json', '../original_web_interface/ApplicationManifest.json', dataset_id=1, user_id=3) # change participant
     # test_user(user)
     user.parse_manifest()
     # [2023-06-05_12-57-00] skipped one segment: user.parse_logs(skipped=True)
@@ -248,9 +248,9 @@ if __name__ == "__main__":
         
         for metric_type in prompt_config["metrics"]:
             print(f"running metric: {metric_type}")
-            scores_manual = utils.run_evaluate([utils.load_json_to_dict("../dataset1_doc_manual.json")["manualSummaries"][1]["summary"]], [overall_summary], metric_type) # change participant
-            scores_baseline = utils.run_evaluate([utils.load_json_to_dict("./p2/none_none/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
-            scores_baseline_summaries = utils.run_evaluate([utils.load_json_to_dict("./p2/none_summaries/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
+            scores_manual = utils.run_evaluate([utils.load_json_to_dict("../dataset1_doc_manual.json")["manualSummaries"][2]["summary"]], [overall_summary], metric_type) # change participant
+            scores_baseline = utils.run_evaluate([utils.load_json_to_dict("./p3/none_none/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
+            scores_baseline_summaries = utils.run_evaluate([utils.load_json_to_dict("./p3/none_summaries/snapshot_final_assistant.json")[-1]["content"]], [overall_summary], metric_type)
             context.append(scores_manual)
             context.append(scores_baseline)
             context.append(scores_baseline_summaries)
