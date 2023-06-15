@@ -133,10 +133,11 @@ bigram_tf_idf %>%
   group_by(example) %>%
   slice_max(tf_idf, n = 9) %>%
   ungroup() %>%
-  ggplot(aes(tf_idf, fct_reorder(bigram, tf_idf), fill = example)) +
+  ggplot(aes(n, fct_reorder(bigram, n), fill = example)) +
   geom_col(show.legend = FALSE) +
-  facet_wrap(~example, ncol = 2, scales = "free") +
-  labs(title = paste0("Bigram TFIDF by Example for Person ",personFilter), x = "tf-idf of Bigrams", y = NULL)
-ggsave(paste0(folder,"Bigram-TFIDF-Example-",personFilter,".png"))
+  facet_wrap(~example, ncol = 2, scales = "free_y") +
+  labs(title = paste0("Bigram TFIDF by Audience for Person ",personFilter), x = "tf-idf of Bigrams displayed with counts", caption = "showing the most popular bigrams for 4 summaries by audience. no stop words are filtered", y = NULL)
+ggsave(paste0(folder,"Bigram-TFIDF-Audence-",personFilter,".png"))
+
 }
 
