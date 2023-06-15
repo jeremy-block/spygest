@@ -30,6 +30,7 @@ categorical.vars <- colnames(data)[2:5]
 for(i in categorical.vars){
   print(i)
 data %>%
+  select(-final_summary) %>%
   create_report(
     output_file = paste0("EDA ",i, format(Sys.time(), "--%Y-%m-%d %H.%M.%S %Z")),
     report_title = paste0("Report - ",i),
