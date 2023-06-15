@@ -10,7 +10,7 @@ library(ggplot2)
 library(dplyr)
 
 # Read the CSV file
-data <- read.csv("data/data-manually-modified.csv")
+data <- read.csv("data/data.csv")
 
 # Set Data columns as factors
 data$audience <- factor(data$audience)
@@ -32,7 +32,7 @@ factors <- c("Audience", "Example", "User")
 folder <- "by_metric_pairs"
 
 # Generate scatterplots for each pair of columns
-for (i in 5:(length(data)-1)) {
+for ( i in 6:(length(data)-1)) {
   for (j in (i + 1):length(data)) {
     # Create a new plot for each pair of columns
     plot_title <- paste(colnames(data)[i], "vs.", colnames(data)[j])
@@ -77,7 +77,7 @@ get_min_max <- function(column_name) {
 
 
 #make a list of the column names
-cont.vars <- colnames(data)[5:length(data)]
+cont.vars <- colnames(data)[6:length(data)]
 
 folder <- "by_user"
 
