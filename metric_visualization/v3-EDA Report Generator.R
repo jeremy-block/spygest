@@ -9,18 +9,18 @@ library(ggplot2)
 library(dplyr)
 
 # Read the CSV file
-data <- read.csv("data/randomValues.csv")
+data <- read.csv("data/data-manually-modified.csv")
 
 # Set Data columns as factors and levels
-data$Audience <- factor(data$Audience)
-data$Example.Type <- factor(data$Example.Type)
-data$User.Number <- factor(data$User.Number)
-data$Ground.Truth <- factor(data$Ground.Truth)
+data$audience <- factor(data$audience)
+data$example <- factor(data$example)
+data$person <- factor(data$person)
+data$ground_truth <- factor(data$ground_truth)
 
-levels(data$Audience) <- c("None", "Self", "Peer", "Manager")
-levels(data$Example.Type) <- c("None", "Manual", "Manual Masked", "Template Masked")
-levels(data$User.Number) <- c("P1","P2","P3")
-levels(data$Ground.Truth) <- c("manual", "baseline", "additional")
+levels(data$audience) <- c("None", "Self", "Peer", "Manager")
+levels(data$example) <- c("None", "Manual", "Manual Masked", "Template Masked")
+levels(data$person) <- c("P1","P2") #,"P3")
+levels(data$ground_truth) <- c("manual", "baseline", "additional")
 
 
 
@@ -44,8 +44,8 @@ options(repr.plot.width = 20, repr.plot.height = 10)
 
 p <- data %>%
   select(5:length(.)) %>%
-  ggpairs(mapping = aes(color = data$Audience, alpha = 0.5))+
-  labs(title=paste0("Comparisons by ","Audience"))
+  ggpairs(mapping = aes(color = data$audience, alpha = 0.5))+
+  labs(title=paste0("Correlations by ","Audience"))
 
 print(p)
 ggsave(filename = paste0(folder,"Pairwise by ", "Audience",".png"), plot = p)
@@ -53,24 +53,24 @@ ggsave(filename = paste0(folder,"Pairwise by ", "Audience",".png"), plot = p)
 
 p <- data %>%
   select(5:length(.)) %>%
-  ggpairs(mapping = aes(color = data$Example.Type, alpha = 0.5))+
-  labs(title=paste0("Comparisons by ","Example Type"))
+  ggpairs(mapping = aes(color = data$example, alpha = 0.5))+
+  labs(title=paste0("Correlations by ","Example Type"))
 
 print(p)
 ggsave(filename = paste0(folder,"Pairwise by ", "Example Type",".png"), plot = p)
 
 p <- data %>%
   select(5:length(.)) %>%
-  ggpairs(mapping = aes(color = data$User.Number, alpha = 0.5))+
-  labs(title=paste0("Comparisons by ","Participant Number"))
+  ggpairs(mapping = aes(color = data$person, alpha = 0.5))+
+  labs(title=paste0("Correlations by ","Participant Number"))
 
 print(p)
 ggsave(filename = paste0(folder,"Pairwise by ", "Participant Number",".png"), plot = p)
 
 p <- data %>%
   select(5:length(.)) %>%
-  ggpairs(mapping = aes(color = data$Ground.Truth, alpha = 0.5))+
-  labs(title=paste0("Comparisons by ","Ground Truth"))
+  ggpairs(mapping = aes(color = data$ground_truth, alpha = 0.5))+
+  labs(title=paste0("Correlations by ","Ground Truth"))
 
 print(p)
 ggsave(filename = paste0(folder,"Pairwise by ", "Ground Truth",".png"), plot = p)

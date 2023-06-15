@@ -10,17 +10,17 @@ library(ggplot2)
 library(dplyr)
 
 # Read the CSV file
-data <- read.csv("data/randomValues.csv")
+data <- read.csv("data/data-manually-modified.csv")
 
 # Set Data columns as factors
-data$Audience <- factor(data$Audience)
-data$Example.Type <- factor(data$Example.Type)
-data$User.Number <- factor(data$User.Number)
-data$Ground.Truth <- factor(data$Ground.Truth)
+data$audience <- factor(data$audience)
+data$example <- factor(data$example)
+data$person <- factor(data$person)
+data$ground_truth <- factor(data$ground_truth)
 
-levels(data$Audience) <- c("None", "Self", "Peer", "Manager")
-levels(data$Example.Type) <- c("None", "Manual", "Manual Masked", "Template Masked")
-levels(data$Ground.Truth) <- c("manual", "baseline", "additional")
+levels(data$audience) <- c("None", "Self", "Peer", "Manager")
+levels(data$example) <- c("None", "Manual", "Manual Masked", "Template Masked")
+levels(data$ground_truth) <- c("manual", "baseline", "additional")
 
 # Define the factor levels for color and assign them to the first two columns
 # colors <- c("red", "blue", "green", "yellow") # too gaudy
@@ -38,11 +38,11 @@ for (i in 5:(length(data)-1)) {
     plot_title <- paste(colnames(data)[i], "vs.", colnames(data)[j])
     p <- ggplot(data, aes_string(x = colnames(data)[i], y = colnames(data)[j])) +
       # geom_point(aes(color = factor(.data[[factors[1]]]), shape = factor(.data[[factors[2]]])),
-      geom_point( aes(color = Audience, shape = Example.Type),
+      geom_point( aes(color = audience, shape = example),
                   size = 3) +
-      scale_color_manual(values = colors) +
+      scale_color_manual(values = colors, name="Audience Type") +
       # scale_shape(solid=TRUE, name = "Example Type")+
-      scale_shape_manual(values = shapes, name = "Example Type")
+      scale_shape_manual(values = shapes, name = "Example Type")+
     labs(title = plot_title, x = colnames(data)[i], y = colnames(data)[j])
     
     # Save the plot as an image
@@ -53,34 +53,7 @@ for (i in 5:(length(data)-1)) {
   }
 }
 
-####### New
 
-
-
-library(lattice)
-
-# Create a sample data frame
-data <- data.frame(
-  x = rep(1:10, 2),  # x values
-  y = c(rnorm(10), rnorm(10, mean = 2)),  # y values
-  group = rep(c("Group 1", "Group 2"), each = 10)  # group labels
-)
-
-# Create a scatter plot with small multiples
-xyplot(y ~ x | group, data = data, type = "p", layout = c(1, 2))
-
-# Create line plots with small multiples
-xyplot(y ~ x | group, data = data, type = "l", layout = c(1, 2))
-
-# xyplot(data = data, )
-
-
-
-
-####### /new
-
-
-folder <- "by_user"
 
 get_min_max <- function(column_name) {
   # Find the column index with the same name
@@ -106,23 +79,25 @@ get_min_max <- function(column_name) {
 #make a list of the column names
 cont.vars <- colnames(data)[5:length(data)]
 
+folder <- "by_user"
+
 #generate faceted scatterplots for each column
 for(k in cont.vars){
   p <- ggplot(data=data, 
-              aes_string(x="Audience", y=k, 
-                         group="User.Number",
-                         shape="User.Number",
-                         color="User.Number")) + 
+              aes_string(x="audience", y=k, 
+                         group="person",
+                         shape="person",
+                         color="person")) + 
     geom_point(size = 3) +
     scale_color_manual(values = colors) + #, name = "User ID") +
     # scale_shape_manual(values = shapes, name = "User ID") + 
     # geom_boxplot()+
     labs(title =
            paste0(k," by Audience, Example Type, and User Number")) +
-    scale_x_discrete("Audience") +
+    scale_x_discrete("audience") +
     # scale_y_continuous(limits = c(0,1)) + 
     scale_y_continuous(limits = get_min_max(k)) +
-    facet_grid(.~Example.Type )
+    facet_grid(.~example )
   print(p)
   ggsave(filename = paste0("figs/v2/",folder,"/faceted-",k,".png"), plot = p)
 }
@@ -131,47 +106,23 @@ for(k in cont.vars){
 
 folder <- "by_ground_truth"
 
-get_min_max <- function(column_name) {
-  # Find the column index with the same name
-  col_index <- match(column_name, names(data))
-  
-  # Check if the column exists
-  if (is.na(col_index)) {
-    stop("Column '", column_name, "' does not exist in the data.")
-  }
-  
-  # Calculate the minimum and maximum values of the column
-  min_value <- min(data[, col_index], na.rm = TRUE)
-  max_value <- max(data[, col_index], na.rm = TRUE)
-  
-  # print(paste(min_value,"< x < ",max_value))
-  
-  # Return the results as a list
-  result <- c(min_value, max_value)
-  return(result)
-}
-
-
-#make a list of the column names
-cont.vars <- colnames(data)[5:length(data)]
-
 #generate faceted scatterplots for each column
 for(k in cont.vars){
   p <- ggplot(data=data, 
-              aes_string(x="Audience", y=k, 
-                         group="Ground.Truth",
-                         shape="Ground.Truth",
-                         color="Ground.Truth")) + 
+              aes_string(x="audience", y=k, 
+                         group="ground_truth",
+                         shape="ground_truth",
+                         color="ground_truth")) + 
     geom_point(size = 3) +
     scale_color_manual(values = colors) + #, name = "User ID") +
     # scale_shape_manual(values = shapes, name = "User ID") + 
     # geom_boxplot()+
     labs(title =
            paste0(k," by Audience, Example Type, and Ground Truth")) +
-    scale_x_discrete("Audience") +
+    scale_x_discrete("audience") +
     # scale_y_continuous(limits = c(0,1)) + 
     scale_y_continuous(limits = get_min_max(k)) +
-    facet_grid(.~Example.Type )
+    facet_grid(.~example )
   print(p)
   ggsave(filename = paste0("figs/v2/",folder,"/faceted-",k,".png"), plot = p)
 }
