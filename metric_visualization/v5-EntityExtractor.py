@@ -2,16 +2,14 @@ import pandas as pd
 import csv
 import spacy
   
-nlp = spacy.load('en_core_web_sm')#trf')
+# todo Maybe try running with a more complext model? ('en_core_web_trf')
+nlp = spacy.load('en_core_web_sm')  
 
 csv_file = "metric_visualization/data/data.csv"
 out_file = "metric_visualization/data/entityCounts.csv"
 
 
-  
-# sentence = "The user investigated an event in the intelligence domain by analyzing multiple documents related to arms dealing, fraudulent schemes, and intercepted emails. They searched for information related to Nigeria, Kenya, Syria, Pakistan, Saudi Arabia, Venezuela, Yemen, Dubai, Gaza, Russia, Thailand, and Columbia. The user found evidence of proposed and realized arms deals and the involvement of Leonid Minsky, an international gun smuggler, in these deals. They also found intercepted emails discussing a coded account at the Central Bank of Nigeria containing $30,600,000.00 and a potential fraudulent scheme involving bank transfers, contract details, and approval processes. The user analyzed a surveillance report on Akram Basra, suspected to be associated with a top leader in the Karachi faction of Lashkar-e-Jhangvi. They also read about the deaths of Thabiti Otieno and Nahid Owiti, a married couple from Narok, who passed away on May 1, 2009, at Nairobi Hospital. The user found an intercepted US government telephone conversation discussing the safe arrival of Tanya's jewels, Nicolai, Nahid, Nairobi, and Dubai. They also read about North Korea's sales of missiles, missile parts, and other arms to countries like Iran, Syria, and Myanmar, which violate a U.N. resolution designed to punish North Korea for consistently violating UN-imposed sanctions over the past year. The user added notes about Kasem and Khouri in Gaza and Minsky and Nikolai in Russia. They also found an intercepted email from Mikhail Dombrovski to Dr. George discussing a transaction to take place at an upcoming meeting on April 15. The user searched for information related to sickness and infection and added notes about Jhon and Hombre exchanging birthday presents. Overall, the user's investigation revealed a complex network of arms dealing, fraudulent schemes, and illegal activities involving multiple countries and individuals."
-
-
+# todo Extract only the types of entities we provided to gpt. https://spacy.io/universe/project/spacy-conll
 def extract_entities(text):
     doc = nlp(text)
     entities = []
