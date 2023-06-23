@@ -38,30 +38,30 @@ data %>%
 
 #Show all accuracy measures in one graph
 gatheredMetrics <- data %>%
-  gather(key = "metric", value = "Score", word_count, rouge, bleu, bleurt, ter) %>%
+  gather(key = "metric", value = "Score", rouge, bleu, bleurt, ter) %>%
   mutate(Audience = audience) %>%
   select(-audience) %>%
   mutate(Example = example) %>%
   select(-example)
     
 gatheredMetrics$metric <- factor(gatheredMetrics$metric)
-levels(gatheredMetrics$metric) <- c("Words","ROUGE", "BLEU", "BLEURT", "TER")
+levels(gatheredMetrics$metric) <- c("ROUGE", "BLEU", "BLEURT", "TER")
     
 gatheredMetrics %>%
-  ggplot(aes(x = Audience, y = Score, fill = Audience)) + 
+  ggplot(aes(x = ground_truth, y = Score, fill = Audience)) + 
   geom_boxplot() +
   facet_wrap(~metric, scales = "free") + 
   labs(title = "Accuracy Measures by Audience")
   
 gatheredMetrics %>%
-  ggplot(aes(x = Example, y = Score, fill = Example)) + 
+  ggplot(aes(x = ground_truth, y = Score, fill = Example)) + 
   geom_boxplot() +
   facet_wrap(~metric, scales = "free") + 
   labs(title = "Accuracy Measures by Example")
 
 
 gatheredMetrics %>%
-  ggplot(aes(x = Audience, y = Score, fill = Audience)) + 
+  ggplot(aes(x = ground_truth, y = Score, fill = Audience)) + 
   geom_boxplot() +
   facet_grid(Example ~ metric, scales = "free") + 
   labs(title = "Accuracy Measures by Audience and Example")
@@ -71,9 +71,9 @@ gatheredMetrics2 <- gatheredMetrics%>%
   gather(key = "key_factor", value = "Level", Audience, Example )
 
 gatheredMetrics2 %>%
-  ggplot(aes(x = Level, y = Score, fill = Level)) + 
+  ggplot(aes(x = ground_truth, y = Score, fill = Level)) + 
   geom_boxplot() +
-  facet_wrap(key_factor ~ metric, nrow = 2, ncol = 5, scales = "free") + 
+  facet_wrap(key_factor ~ metric, nrow = 2, ncol = 4, scales = "free") + 
   labs(title = "Accuracy Measures by Audience and Example")
 ggsave(paste0(folder,"accuracyMeasures.png"))
 
