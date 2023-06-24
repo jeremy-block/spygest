@@ -7,12 +7,16 @@ config = toml.load("config.toml")
 doc_config = config["document"]
 
 def process_docs(doc_path=None):
+    """
+    Takes in the path to the documents in Dataset 1
+    Call functions implemented in the document module to extract summaries, topics, and entities
+    Save the results to a new file that has the same name as the original file but has "_preprocessed_part#" appended to the end
+    """
     with open(doc_path, 'r') as f:
         docs = json.load(f)
     new_docs = []
-    n = len(docs)
 
-    # for doc in docs:
+    # We have to manually set the number of documents to be processed because there is a limit on the number of requests we can send to the API in a certain amount of time
     for i in range(90, 102):
         doc = docs[i]
         d = Document(doc)
@@ -25,9 +29,10 @@ def process_docs(doc_path=None):
     with open(new_path, 'w') as f:
         json.dump(new_docs, f)
 
-# write a function that takes a list of documents and combine the json objects into one big json file
-# then write that file to a new file path
 def combine_docs(doc_path, doc_list):
+    """
+    Combines different parts of the preprocessed documents into one file that has the same name as the original file but has "_preprocessed" appended to the end
+    """
     final_docs = []
     for path in doc_list:
         with open(path, 'r') as f:
@@ -37,14 +42,11 @@ def combine_docs(doc_path, doc_list):
     with open(new_path, 'w') as f:
         json.dump(final_docs, f)
 
-# write a function that takes a doc_path and appends to_append to the end of the file path
 def get_new_file_path(doc_path, to_append):
     new_filename = doc_path.split('/')[-1].split('.')[0] + to_append + '.json'
     new_path = '/'.join(doc_path.split('/')[:-1]) + '/' + new_filename
-    # print(new_path)
     return new_path
     
 if __name__ == "__main__":
     doc_list = [get_new_file_path(DOC_PATH, "_preprocessed_part" + str(i)) for i in range(1, doc_config["num_parts"] + 1)]
-    # process_docs(DOC_PATH)
     combine_docs(DOC_PATH, doc_list)
