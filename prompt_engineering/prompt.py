@@ -162,6 +162,7 @@ def test_user(user):
     # print(user.interaction_logs)
     print(f"Divide the interaction logs into {len(user.interaction_logs)} segments")
     print(f"Interaction types: {user.interaction_types}")
+    print(f"Number of interaction types: {len(user.interaction_types)}")
     get_user_message_final(user=user, summaries="")
     get_system_message(user=user)
 

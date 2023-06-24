@@ -43,7 +43,7 @@ class User:
         
         # print(f"Segment counts: {self.num_segments}")
 
-    def parse_logs(self, skipped=False, include_docs=False):
+    def parse_logs(self, skipped=False, include_docs=False, doc_only=False):
         with open(self.log_path, 'r') as f:
             logs = json.load(f)
         self.raw_logs = logs
@@ -53,6 +53,8 @@ class User:
             self.get_segments_skip()
         elif include_docs:
             self.get_segments_with_doc(has_sum=True, has_topics=True, has_entities=True)
+        elif doc_only:
+            self.get_segments_doc_only(has_sum=True, has_topics=True, has_entities=True)
         else:
             self.get_segments()
             
@@ -109,6 +111,60 @@ class User:
                     interaction_log += ","
                 # segment_logs.append(self.raw_logs[j]["summary"]+",")
                 segment_logs.append(interaction_log)
+                # print(interaction_log)
+            self.interaction_logs.append(" ".join(segment_logs))
+
+    def get_segments_doc_only(self, has_sum=False, has_topics=False, has_entities=False):
+        segment_length = self.num_logs // self.num_segments
+        print(self.num_logs)
+        print(segment_length)
+        for i in range(self.num_segments):
+            segment_logs = ["The user"]
+            start = i*segment_length
+            end = (i+1)*segment_length
+            if i == self.num_segments-1:
+                end = self.num_logs
+            segment_reading_set = set()
+            for j in range(start, end):
+                # print(f"adding log {j} to segment {i+1}")
+                # segment_logs.append(" ".join(["The user", self.raw_logs[j]["summary"]+"."]))
+                interaction_log = self.raw_logs[j]["summary"]
+                # if self.raw_logs[j]["interactionType"] == "Reading" and self.raw_logs[j]["duration"] > 50:
+                if self.raw_logs[j]["interactionType"] == "Reading" and self.raw_logs[j]["duration"] > 150:
+                    doc_id = self.get_doc_id(j)
+                    if has_sum:
+                        interaction_log += ", with the content: " + self.docs[doc_id]["summary"]
+                    if has_topics:
+                        interaction_log += " Important topics: " + self.docs[doc_id]["topics"]
+                    if has_entities and doc_id not in segment_reading_set:
+                        entities = []
+                        entity = ""
+                        for et, en in self.docs[doc_id]["entities"].items():
+                            entity = f"{et}: {','.join(en)}"
+                            entities.append(entity)
+                        # print(entities)
+                        interaction_log += " Important named entities: " + ("; ".join(entities))
+                    segment_reading_set.add(doc_id)
+                    segment_logs.append(interaction_log)
+                    # print(interaction_log)
+                # elif self.raw_logs[j]["interactionType"] == "Connection":
+                #     id1, id2 = self.raw_logs[j]["id"].split(",")
+                #     if user_config["theme_id"] not in id1 or user_config["theme_id"] not in id2:
+                #         interaction_log += ","
+                #     else:
+                #         doc_id1 = int(id1[len(user_config['theme_id']):])-1
+                #         doc_id2 = int(id2[len(user_config['theme_id']):])-1 
+                #         interaction_log += f", with the titles: {self.docs[doc_id1]['title']} and {self.docs[doc_id2]['title']},"
+                #     # print(interaction_log)
+                # elif self.raw_logs[j]["interactionType"] in user_config["title_interaction"]:
+                #     doc_id = self.get_doc_id(j)
+                #     interaction_log += f', with the title: {self.docs[doc_id]["title"]},'
+                #     # print(interaction_log)
+                # elif self.raw_logs[j]["interactionType"] == "Think_aloud":
+                #     continue
+                # else:
+                #     interaction_log += ","
+                # segment_logs.append(self.raw_logs[j]["summary"]+",")
                 # print(interaction_log)
             self.interaction_logs.append(" ".join(segment_logs))
     

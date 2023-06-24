@@ -57,6 +57,13 @@ def load_json_to_dict(file_path):
         res = json.load(f)
     return res
 
+def save_dict_to_json(dict_to_save, folder_name=None, filename=None) -> None:
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+    # write the snapshot to a file named "filemane.json" in the folder we just created
+    with open(os.path.join(folder_name, filename + '.json'), 'w') as f:
+        json.dump(dict_to_save, f)
+
 def highlight_differences(text1, text2):
     diff = difflib.ndiff(text1.split(), text2.split())
     differences = [part for part in diff if part.startswith('-') or part.startswith('+')]
