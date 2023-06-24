@@ -48,5 +48,6 @@ def get_new_file_path(doc_path, to_append):
     return new_path
     
 if __name__ == "__main__":
+    process_docs(DOC_PATH)
     doc_list = [get_new_file_path(DOC_PATH, "_preprocessed_part" + str(i)) for i in range(1, doc_config["num_parts"] + 1)]
     combine_docs(DOC_PATH, doc_list)
