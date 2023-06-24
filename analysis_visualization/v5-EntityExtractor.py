@@ -1,8 +1,12 @@
+####
+# Function that calls on SpaCy to help extract entities and provide them to v5-entitiesbylength.R
+# Did not find significant results.
+
 import pandas as pd
 import csv
 import spacy
   
-# todo Maybe try running with a more complext model? ('en_core_web_trf')
+# todo Maybe try running with a more complext model? there is: ('en_core_web_trf')
 nlp = spacy.load('en_core_web_sm')  
 
 csv_file = "metric_visualization/data/data.csv"

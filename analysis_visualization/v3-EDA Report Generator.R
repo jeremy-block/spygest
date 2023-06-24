@@ -1,3 +1,9 @@
+#####
+# This file generates a handful of exploritory Data Analysis reports
+# Examining relationships among all variables can help identify insights.
+# Installs two data exploration tools, and exports to the v3 folder.
+#####
+
 # install.packages("DataExplorer")
 library(DataExplorer)
 
@@ -25,9 +31,9 @@ levels(data$ground_truth) <- c("manual", "baseline", "additional")
 
 
 # Exploritory Data Analysis Reports by each categorical variable
-categorical.vars <- colnames(data)[2:5]
+categorical_vars <- colnames(data)[2:5]
 
-for(i in categorical.vars){
+for(i in categorical_vars){
   print(i)
 data %>%
   select(-final_summary) %>%

@@ -1,3 +1,8 @@
+#####
+# Exploration of some of the words used in summaries.
+# not seeing any significant results.
+#####
+
 library(dplyr)
 library(tidytext)
 library(forcats)
@@ -7,7 +12,7 @@ library(tidyr)
 folder = "figs/v4/"
 personFilter = 1
 for (personFilter in c(1,2,3)){
-  
+
 corpus_by_audience <- read.csv("data/data.csv") %>%
   filter(ground_truth == "manual" & person == personFilter) %>% #just look at the 16 summaries for specified participant
   select(final_summary,audience,person) %>%
