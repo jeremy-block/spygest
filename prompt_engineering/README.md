@@ -30,7 +30,7 @@ This package includes several modules to enable our prompt engineering experimen
 
 ## Preprocessing
 
-- The process of converting interaction logs to interaction sentences is implemented in [another part](../data_prep_scripts/06-Rule_Based_Sentence_Generator%26Hugging_Face_Summarizers.ipynb) of the repository
+- The process of converting interaction logs to interaction sentences is implemented in [another part](../data_prep_scripts/01-Rule_Based_Sentence_Generator.ipynb) of the repository
   - We are planning to integrate that process into this package
 - Call functions implemented in the document module to extract summaries, topics, and entities
 
