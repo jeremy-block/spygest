@@ -1,9 +1,9 @@
 # Spygest Project
 
-![example image of the baseline Spygest research project interface](documentation/images/interface-example.png)
+<!-- ![example image of the baseline Spygest research project interface](documentation/images/interface-example.png) -->
 
-This is a repository for the development of a provenance summarization pipeline for the Spring 2023 session of CAP 6940 - Natural Language Processing at the University of Florida.
-
+<!-- This is a repository for the development of a provenance summarization pipeline for the Spring 2023 session of CAP 6940 - Natural Language Processing at the University of Florida. -->
+This is a repository for the development of a provenance summarization pipeline.
 The team will use this repository to share code, the dataset, and more.
 
 ## Project Goal
@@ -14,6 +14,10 @@ Wether this is generated from a corpus of sentences for every event and summariz
 1. feasibility of generating sentences from interaction histories
 2. Comparison of features between human generated summaries of interaction histories and the automated approach
 3. Evaluate human preferences
+
+### Running Prompt Engineering
+
+We implement a pipeline for conducting experiments using prompt engineering techniques. Please refer to the [README](./prompt_engineering/README.md) in the [`prompt_engineering`](./prompt_engineering/) package
 
 ### Running the Original Web app
 
