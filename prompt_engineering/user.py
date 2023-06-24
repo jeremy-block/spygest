@@ -43,10 +43,29 @@ class User:
             self.get_segments_doc_only(has_sum=True, has_topics=True, has_entities=True)
         else:
             self.get_segments()
+    
+    def get_segments(self):
+        """
+        - Return interaction sentences (without document information) for a segment
+        - Implementation:
+            - divide raw_logs into self.num_segments segments
+            - each segment takes a list of logs
+            - get the "summary" from these logs (JSON objects)
+            - add "The user" to the beginning of the "summary"
+            - concatenate the summaries into a single string, append it to "self.interaction_logs"
+        """
+        segment_length = self.num_logs // self.num_segments
+        for i in range(self.num_segments):
+            segment_logs = ["The user"]
+            for j in range(i*segment_length, min((i+1)*segment_length, self.num_logs)):
+                print(f"adding log {j} to segment {i}")
+                segment_logs.append(self.raw_logs[j]["summary"] + ",")
+            self.interaction_logs.append(" ".join(segment_logs))
 
     def get_segments_with_doc(self, has_sum=False, has_topics=False, has_entities=False):
         """
-        
+        Advanced version of get_segments()
+        Add information extracted from documents to interaction sentences
         """
         segment_length = self.num_logs // self.num_segments
         for i in range(self.num_segments):
@@ -58,8 +77,8 @@ class User:
             segment_reading_set = set()
             for j in range(start, end):
                 interaction_log = self.raw_logs[j]["summary"]
-                # if self.raw_logs[j]["interactionType"] == "Reading" and self.raw_logs[j]["duration"] > 50:
                 if self.raw_logs[j]["interactionType"] == "Reading" and self.raw_logs[j]["duration"] > 150:
+                    # Only include the information from documents the user engaged with
                     doc_id = self.get_doc_id(j)
                     if has_sum:
                         interaction_log += ", with the content: " + self.docs[doc_id]["summary"]
@@ -74,6 +93,7 @@ class User:
                         interaction_log += " Important named entities: " + ("; ".join(entities))
                     segment_reading_set.add(doc_id)
                 elif self.raw_logs[j]["interactionType"] == "Think_aloud":
+                    # Skip the think aloud interaction
                     continue
                 else:
                     interaction_log += ","
@@ -81,6 +101,9 @@ class User:
             self.interaction_logs.append(" ".join(segment_logs))
 
     def get_segments_doc_only(self, has_sum=False, has_topics=False, has_entities=False):
+        """
+        Only return sentences for reading interactions for factuality check using FactGraph
+        """
         segment_length = self.num_logs // self.num_segments
         print(self.num_logs)
         print(segment_length)
@@ -112,22 +135,11 @@ class User:
     
     def get_doc_id(self, log_ix):
         return int(self.raw_logs[log_ix]["id"][len(user_config["theme_id"]):])-1
-    
-    def get_segments(self):
-        # divide raw_logs into self.num_segments segments
-        # each segment takes a list of logs
-        # get the "summary" from these logs (JSON objects)
-        # add "The user" to the beginning of the "summary"
-        # concatenate the summaries into a single string, append it to "self.interaction_logs"
-        segment_length = self.num_logs // self.num_segments
-        for i in range(self.num_segments):
-            segment_logs = ["The user"]
-            for j in range(i*segment_length, min((i+1)*segment_length, self.num_logs)):
-                print(f"adding log {j} to segment {i}")
-                segment_logs.append(self.raw_logs[j]["summary"] + ",")
-            self.interaction_logs.append(" ".join(segment_logs))
 
     def get_segments_skip(self):
+        """
+        For experimental purposes, randomly skips a certain number of segments
+        """
         segment_length = self.num_logs // self.num_segments
         skip_segment = random.randint(0, self.num_segments-1)
 
