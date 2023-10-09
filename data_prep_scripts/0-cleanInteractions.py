@@ -1,4 +1,4 @@
-# Ran on 1/31/2023 to clean up dataset interactions for all 8 participants in each dataset
+# Ran on 1/31/2023 to clean up dataset interactions for all 3 participants in dataset
 
 # Takes an event like the following
 # {
@@ -19,9 +19,7 @@
 
 import json
 import re
-# datasetNumber = [1, "Arms"]
-# datasetNumber = [2, "Terrorist"]
-datasetNumber = [3, "Disappearance"]
+datasetNumber = [1, "Arms"]
 
 #Which types of events need to have their content changed? 
 # "ID", "Text" - implies that there is duplicate information in both fields. "id" will be lowered and spaces removed, "text" will be made blank
@@ -101,7 +99,7 @@ def convertFile(filePath):
     write_json_data_to_file(filePath,outdata)
 
 
-for userNumber in range(1, 9):
+for userNumber in range(1, 4):
     path = "data/Dataset_"+str(datasetNumber[0])+"/User Interactions/"+str(
         datasetNumber[1])+"_P"+str(userNumber)+"_InteractionsLogs.json"
     convertFile(path)

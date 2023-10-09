@@ -28,7 +28,7 @@ Named Entities:
     WORK_OF_ART: Titles of books, songs, etc.
 """
 
-openai.api_key = "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"
+openai.api_key = "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"
 _FILE_PATH = ["./data/Dataset_1/User Interactions/Arms_P1_InteractionsLogs.json", "./data/Dataset_1/User Interactions/Arms_P2_InteractionsLogs.json", "./data/Dataset_1/User Interactions/Arms_P3_InteractionsLogs.json"]
 _MAX_TOKEN = 3072 #2048
 _PID = "P1" #P2 #P3
@@ -308,7 +308,7 @@ def summarize(pid):
         print(f"summarizing segment #{seg_ix+1}")
         print(f"starting from log#{start_ix}")
         sentences, ix = get_sentences(logs, start_ix, tokens_per_segment, pid, None) # doc_duration, None
-        # print(sentences)
+        print(sentences)
         print(f"summarized up to log #{ix}")
         start_ix = ix + 1
         # if summaries:
@@ -322,60 +322,62 @@ def summarize(pid):
         #         {"role": "system", "content": "You are ChatGPT, a large language model trained by OpenAI. Summarize as concisely as possible."},
         #         {"role": "user", "content": sentences}
         #     ]
-        if summaries:
-            messages=[
-                {"role": "system", "content": "You are ChatGPT, a large language model trained by OpenAI. Summarize as concisely as possible based on the fact that " + prompt},
-                {"role": "assistant", "content": " ".join(summaries)},
-                {"role": "user", "content": sentences}
-            ]
-        else:
-            messages=[
-                {"role": "system", "content": "You are ChatGPT, a large language model trained by OpenAI. Summarize as concisely as possible based on the fact that " + prompt},
-                {"role": "user", "content": sentences}
-            ]
+        # if summaries:
+        #     messages=[
+        #         {"role": "system", "content": "You are ChatGPT, a large language model trained by OpenAI. Summarize as concisely as possible based on the fact that " + prompt},
+        #         {"role": "assistant", "content": " ".join(summaries)},
+        #         {"role": "user", "content": sentences}
+        #     ]
+        # else:
+        #     messages=[
+        #         {"role": "system", "content": "You are ChatGPT, a large language model trained by OpenAI. Summarize as concisely as possible based on the fact that " + prompt},
+        #         {"role": "user", "content": sentences}
+        #     ]
 
         """
         'gpt-3.5-turbo'
         maximum limit: 4096 tokens
         """
 
-        input_tokens = num_tokens_from_messages(messages)
-        print(f"the number of input tokens for this segment is {input_tokens}")
+        # input_tokens = num_tokens_from_messages(messages)
+        # print(f"the number of input tokens for this segment is {input_tokens}")
         # max_tokens = int((input_tokens * _MAX_TOKEN * 0.99) // tokens_needed)
         # print(f"so the number of output tokens for this segment should be set to {max_tokens}")
         # tokens_total_goal += max_tokens
 
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=messages,
-            max_tokens=4096-input_tokens-1
-        )
+        # response = openai.ChatCompletion.create(
+        #     model="gpt-3.5-turbo",
+        #     messages=messages,
+        #     max_tokens=4096-input_tokens-1
+        # )
         
-        # generated = response.usage.completion_tokens
-        # print(f"generated {generated} tokens")
-        # tokens_total_gen += generated
+        # # generated = response.usage.completion_tokens
+        # # print(f"generated {generated} tokens")
+        # # tokens_total_gen += generated
     
-        summaries.append(response.choices[0].message.content)
+        # summaries.append(response.choices[0].message.content)
+        summaries.append(ix)
     # print(f"should generated a total of {tokens_total_goal} tokens")
     # print(f"generated a total of {tokens_total_gen} tokens")
     print(summaries)
-    final_sum = get_final_summary(summaries, pid, prompt)
-    res = collections.defaultdict(float)
-    for eval_type in _EVAL_TYPES:
-        print(f"Evaluation using {eval_type}")
-        res[eval_type] = (run_evaluate(eval_type, pid, final_sum))
-        # run_evaluate(eval_type, pid, final_sum)
-    return res
+    # final_sum = get_final_summary(summaries, pid, prompt)
+    # res = collections.defaultdict(float)
+    # for eval_type in _EVAL_TYPES:
+    #     print(f"Evaluation using {eval_type}")
+    #     res[eval_type] = (run_evaluate(eval_type, pid, final_sum))
+    #     # run_evaluate(eval_type, pid, final_sum)
+    # return res
 
 if __name__ == "__main__":
-    rouge_1 = 0
-    bleu_1 = 0
-    for _ in range(_ITERS):
-        for pid in _PIDS:
-            print(f"Summarize and evaluate for {pid}")
-            results = summarize(pid)
-            print(f"results: {results}")
-            rouge_1 += results["rouge"]
-            bleu_1 += results["bleu"]
-    print(f"ROUGE-1: {rouge_1/(len(_PIDS)*_ITERS)}")
-    print(f"BLEU-1: {bleu_1/(len(_PIDS)*_ITERS)}")
+    summarize("P1")
+    # rouge_1 = 0
+    # bleu_1 = 0
+    # for _ in range(_ITERS):
+    #     for pid in _PIDS:
+    #         print(f"Summarize and evaluate for {pid}")
+    #         results = summarize(pid)
+    #         print(f"results: {results}")
+    #         rouge_1 += results["rouge"]
+    #         bleu_1 += results["bleu"]
+    # print(f"ROUGE-1: {rouge_1/(len(_PIDS)*_ITERS)}")
+    # print(f"BLEU-1: {bleu_1/(len(_PIDS)*_ITERS)}")

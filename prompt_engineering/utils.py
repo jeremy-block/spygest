@@ -1,4 +1,3 @@
-# write a parser for parsing superlatives from a manifest file given the file path, the manifest file is a json file, and save the results to a User class
 import json
 import openai
 import tiktoken
@@ -7,14 +6,16 @@ import os
 from dotenv import load_dotenv
 import evaluate
 from datasets import load_metric
-# import load
-# import tensorflow as tf
-# print(tf.__version__)
 
 load_dotenv(dotenv_path=".env/api_key.py")
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
+    """
+    Takes in a user prompt
+    Sends a user message to the OpenAI Chat Completions API
+    Returns the response
+    """
     messages = [{"role": "user", "content": prompt}]
     response = openai.ChatCompletion.create(
         model=model,
@@ -24,16 +25,22 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
     return response.choices[0].message["content"]
 
 def get_completion_from_messages(messages, model="gpt-3.5-turbo", temperature=0):
+    """
+    Takes in list of message objects
+    Sends the messages to the OpenAI Chat Completions API
+    Returns the response
+    """
     response = openai.ChatCompletion.create(
         model=model,
         messages=messages,
         temperature=temperature, # this is the degree of randomness of the model's output
     )
-#     print(str(response.choices[0].message))
     return response.choices[0].message["content"]
 
 def num_tokens_from_messages(messages, model="gpt-3.5-turbo-0301"):
-    """Returns the number of tokens used by a list of messages."""
+    """
+    Returns the number of tokens used by a list of messages.
+    """
     try:
         encoding = tiktoken.encoding_for_model(model)
     except KeyError:
@@ -57,15 +64,18 @@ def load_json_to_dict(file_path):
         res = json.load(f)
     return res
 
+def save_dict_to_json(dict_to_save, folder_name=None, filename=None) -> None:
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+    # write the snapshot to a file named "filemane.json" in the folder we just created
+    with open(os.path.join(folder_name, filename + '.json'), 'w') as f:
+        json.dump(dict_to_save, f)
+
 def highlight_differences(text1, text2):
     diff = difflib.ndiff(text1.split(), text2.split())
     differences = [part for part in diff if part.startswith('-') or part.startswith('+')]
     highlighted_text = []
     for difference in differences:
-        # if difference.startswith('-'):
-        #     highlighted_text.append(f"[-{difference[1:]}-]")  # Enclose removed parts in square brackets
-        # elif difference.startswith('+'):
-        #     highlighted_text.append(f"[+{difference[1:]}+]")  # Enclose added parts in square brackets
         if difference.startswith('-'):
             highlighted_text.append(f"\033[91m{difference}\033[0m")  # Highlight removed parts in red
         elif difference.startswith('+'):
@@ -73,6 +83,9 @@ def highlight_differences(text1, text2):
     return ' '.join(highlighted_text)
 
 def run_evaluate(predictions, references, metrics):
+    """
+    Run evaluate using HuggingFace
+    """
     results = None
     if metrics == "rouge":
         rouge = evaluate.load('rouge')
@@ -81,7 +94,6 @@ def run_evaluate(predictions, references, metrics):
         bleu = evaluate.load('bleu')
         results = bleu.compute(predictions=predictions, references=references)
     elif metrics == "bleurt":
-        # bleurt = evaluate.load("bleurt")
         bleurt = load_metric('bleurt', 'bleurt-large-512')
         results = bleurt.compute(predictions=predictions, references=references)
     elif metrics == "ter":
@@ -89,5 +101,4 @@ def run_evaluate(predictions, references, metrics):
         results = ter.compute(predictions=predictions, references=references)
     else:
         raise NotImplementedError(f"The metric {metrics} is not implemented.")
-    print(results)
     return results
